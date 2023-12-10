@@ -1,12 +1,11 @@
-[submodule "ibex"]
+[submodule "rtl/ibex"]
 	path = rtl/ibex
 	url = https://github.com/michael-platzer/ibex.git
-	branch = master
-[submodule "ibex_pext"]
+[submodule "rtl/ibex_pext"]
 	path = rtl/ibex_pext
 	url = https://github.com/Memmedud/ibex
 	branch = master
-[submodule "vicuna"]
+[submodule "rtl/vicuna"]
 	path = rtl/vicuna
 	url = https://github.com/vproc/vicuna
 	branch = master
