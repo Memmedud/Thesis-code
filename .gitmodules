@@ -16,6 +16,3 @@
 [submodule "benchmark/tiny"]
 	path = benchmark/tiny
 	url = https://github.com/mlcommons/tiny
-[submodule "benchmark/--force"]
-	path = benchmark/--force
-	url = https://github.com/mlcommons/tiny
