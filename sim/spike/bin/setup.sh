@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Will clone and build Spike and pk for both rv32i and rv32e
+# Will clone and build Spike and pk for both rv32i /// and rv32e ///
 
 set -e
 
@@ -68,7 +68,7 @@ if [[ -d $SCRIPT_DIR/../../../toolchain/riscv-gcc-main ]]; then
     fi
 
     # Build pk with ilp32e   # Does not work for now, maybe not needed?
-
+    # Can be fixed with https://github.com/riscv-software-src/riscv-pk/pull/280...
     if [[ ! -f pk_ilp32e && 1 -eq 0 ]]; then
         cd $SCRIPT_DIR
         mkdir build

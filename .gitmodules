@@ -1,18 +1,21 @@
-[submodule "rtl/ibex"]
-	path = rtl/ibex
+[submodule "hw/ibex"]
+	path = hw/ibex
 	url = https://github.com/michael-platzer/ibex.git
-[submodule "rtl/ibex_pext"]
-	path = rtl/ibex_pext
+[submodule "hw/ibex_pext"]
+	path = hw/ibex_pext
 	url = https://github.com/Memmedud/ibex
 	branch = master
-[submodule "rtl/vicuna"]
-	path = rtl/vicuna
+[submodule "hw/vicuna"]
+	path = hw/vicuna
 	url = https://github.com/vproc/vicuna
 	branch = master
-[submodule "benchmark/riscv-tests"]
-	path = benchmark/riscv-tests
+[submodule "sw/benchmarks/riscv-tests"]
+	path = sw/benchmarks/riscv-tests
 	url = https://github.com/riscv-software-src/riscv-tests
 	branch = master
-[submodule "benchmark/tiny"]
-	path = benchmark/tiny
+[submodule "sw/benchmarks/tiny"]
+	path = sw/benchmarks/tiny
 	url = https://github.com/mlcommons/tiny
+[submodule "sw/tflite-micro"]
+	path = sw/tflite-micro
+	url = https://github.com/tensorflow/tflite-micro
