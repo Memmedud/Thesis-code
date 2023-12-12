@@ -1,1 +1,1 @@
-TODO: Not working yet
+Simply run ./setup.sh and everything should work automagically

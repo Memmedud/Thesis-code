@@ -1,6 +1,15 @@
 
 # Toolchain
-toolchain/rv*
+toolchain/riscv*
+
+# Sim
+sim/spike/bin/spike
+sim/spike/bin/pk_ilp32
+sim/spike/bin/pk_ilp32e
+
+# temporary files
+*build*
 
 # Misc
 *.DS_Store
+

@@ -23,52 +23,66 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Check that toolchain is up and running
-if [ -d "../../../toolchain/rv32imc" &&  -d "../../../toolchain/rv32emc"]; then
+if [[ -d $SCRIPT_DIR/../../../toolchain/riscv-gcc-main ]]; then
 
-    git clone https://github.com/riscv-software-src/riscv-isa-sim
-    git clone https://github.com/riscv-software-src/riscv-pk
+    if [[ ! -d riscv-isa-sim ]]; then
+        git clone https://github.com/riscv-software-src/riscv-isa-sim
+    fi
+
+    if [[ ! -d riscv-pk ]]; then
+        git clone https://github.com/riscv-software-src/riscv-pk
+    fi
 
     sudo apt-get install device-tree-compiler
         # Enter password
 
     # Build Spike
-    cd $SCRIPT_DIR/riscv-isa-sim
-    mkdir build
-    cd build
-    ../configure --prefix=$RISCV
-    make
-    sudo make install
-        # Enter password
-    mv spike $SCRIPT_DIR/spike
-    cd ..
-    rm -rf build
-    make clean
+    if [[ ! -f spike ]]; then
+        cd $SCRIPT_DIR/riscv-isa-sim
+        mkdir build
+        cd build
+        ../configure --prefix=$RISCV
+        make
+        sudo make install
+            # Enter password
+        mv spike $SCRIPT_DIR/spike
+        cd ..
+        rm -rf build
+    fi
+
+    export RISCV=$SCRIPT_DIR/../../../toolchain/riscv-gcc-main/
+    export PATH=$RISCV/bin:$PATH    
 
     # Build pk with ilp32
-    cd $SCRIPT_DIR
-    mkdir build
-    cd build
-    ../configure --prefix=$RISCV --host=riscv32i-unknown-elf --with-arch=rv32imc --with-abi=ilp32
-    make 
-    make install
-    mv pk $SCRIPT_DIR/pk_ilp32
-    make clean
-    cd $SCRIPT_DIR
-    rm -rf build
+    if [[ ! -f pk_ilp32 ]]; then
+        cd $SCRIPT_DIR
+        mkdir build
+        cd build
+        ../riscv-pk/configure --prefix=$RISCV --host=riscv32-unknown-elf --with-arch=rv32imc_zicsr_zifencei --with-abi=ilp32
+        make 
+        make install
+        mv pk $SCRIPT_DIR/pk_ilp32
+        make clean
+        cd $SCRIPT_DIR
+        rm -rf build
+    fi
 
-    #Build pk with ilp32e
-    cd $SCRIPT_DIR
-    mkdir build
-    cd build
-    ../configure --prefix=$RISCV --host=riscv32e-unknown-elf --with-arch=rv32emc --with-abi=ilp32e
-    make 
-    make install
-    mv pk $SCRIPT_DIR/pk_ilp32e
-    make clean
-    cd $SCRIPT_DIR
-    rm -rf build
+    # Build pk with ilp32e   # Does not work for now, maybe not needed?
 
-else then
+    if [[ ! -f pk_ilp32e && 1 -eq 0 ]]; then
+        cd $SCRIPT_DIR
+        mkdir build
+        cd build
+        ../riscv-pk/configure --prefix=$RISCV --host=riscv32-unknown-elf --with-arch=rv32emc_zicsr_zifencei --with-abi=ilp32e
+        make 
+        make install
+        mv pk $SCRIPT_DIR/pk_ilp32e
+        make clean
+        cd $SCRIPT_DIR
+        rm -rf build
+    fi
+
+else
 
     echo "Install toolchain first!"
     
