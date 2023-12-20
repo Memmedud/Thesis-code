@@ -25,19 +25,26 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Check that toolchain is up and running
 if [[ -d $SCRIPT_DIR/../../../toolchain/riscv-gcc-main ]]; then
 
-    if [[ ! -d riscv-isa-sim ]]; then
+    if [[ ! -d $SCRIPT_DIR/riscv-isa-sim ]]; then
         git clone https://github.com/riscv-software-src/riscv-isa-sim
     fi
 
-    if [[ ! -d riscv-pk ]]; then
-        git clone https://github.com/riscv-software-src/riscv-pk
+    if [[ ! -d $SCRIPT_DIR/riscv-pk ]]; then
+        # Set up correct repo with rve patch
+        git clone https://github.com/liweiwei90/riscv-pk
+        cd $SCRIPT_DIR/riscv-pk
+        git remote add upstream https://github.com/riscv-software-src/riscv-pk
+        git fetch upstream
+        git merge upstream/master
+        git checkout plct-rve-dev
+        git rebase master
     fi
 
     sudo apt-get install device-tree-compiler
         # Enter password
 
     # Build Spike
-    if [[ ! -f spike ]]; then
+    if [[ ! -f $SCRIPT_DIR/spike ]]; then
         cd $SCRIPT_DIR/riscv-isa-sim
         mkdir build
         cd build
@@ -54,7 +61,7 @@ if [[ -d $SCRIPT_DIR/../../../toolchain/riscv-gcc-main ]]; then
     export PATH=$RISCV/bin:$PATH    
 
     # Build pk with ilp32
-    if [[ ! -f pk_ilp32 ]]; then
+    if [[ ! -f $SCRIPT_DIR/pk_ilp32 ]]; then
         cd $SCRIPT_DIR
         mkdir build
         cd build
@@ -69,7 +76,7 @@ if [[ -d $SCRIPT_DIR/../../../toolchain/riscv-gcc-main ]]; then
 
     # Build pk with ilp32e   # Does not work for now, maybe not needed?
     # Can be fixed with https://github.com/riscv-software-src/riscv-pk/pull/280...
-    if [[ ! -f pk_ilp32e && 1 -eq 0 ]]; then
+    if [[ ! -f $SCRIPT_DIR/pk_ilp32e ]]; then
         cd $SCRIPT_DIR
         mkdir build
         cd build

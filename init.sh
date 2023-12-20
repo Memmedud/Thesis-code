@@ -24,13 +24,18 @@ set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-git submodule update --init --recursive     
+git submodule update --init --recursive  
+
+cd $SCRIPT_DIR/hw/ibex
+pip3 install -U -r python-requirements.txt
+sudo apt-get install libelf-dev srecord
+    # Password
 
 cd $SCRIPT_DIR/toolchain
-./setup.sh      # TODO: Any arguments?
+./setup.sh --default --vext --pext     # TODO: Any arguments?
 
 cd $SCRIPT_DIR/sim/spike/bin
-.install.sh      # TODO: Any arguments?
+.setup.sh      # TODO: Any arguments?
 
 cd $SCRIPT_DIR/sim/verilator
 .setup.sh      # TODO: Any arguments?

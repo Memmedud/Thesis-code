@@ -34,9 +34,10 @@ if [ ! -d "verilator" ]; then
   git clone https://github.com/verilator/verilator
   unset VERILATOR_ROOT
   cd verilator
-  git checkout stable
+  git checkout v5.006
   autoconf
-  ./configure --prefix ${SCRIPT_DIR}/verilator/install
+  ./configure --prefix ${SCRIPT_DIR}/verilator/install    # Final install directory is "sim/verilator/verilator/install/bin/verilator"
   make -j 4
   make install
+  # TODO: Find an elegant way to add to path...
 fi
