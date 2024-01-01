@@ -10,6 +10,11 @@ sim/spike/bin/pk_ilp32e
 # temporary files
 *build*
 
+# SW cmake files
+*CMakeFiles
+sw/**Makefile
+sw/bin
+
 # Misc
 *.DS_Store
-
+*old

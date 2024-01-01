@@ -13,9 +13,9 @@
 	path = sw/benchmarks/riscv-tests
 	url = https://github.com/riscv-software-src/riscv-tests
 	branch = master
-[submodule "sw/benchmarks/tiny"]
-	path = sw/benchmarks/tiny
-	url = https://github.com/mlcommons/tiny
-[submodule "sw/tflite-micro"]
-	path = sw/tflite-micro
-	url = https://github.com/tensorflow/tflite-micro
+#[submodule "sw/benchmarks/tiny"]
+#	path = sw/benchmarks/tiny
+#	url = https://github.com/mlcommons/tiny
+#[submodule "sw/tflite-micro"]
+#	path = sw/tflite-micro
+#	url = https://github.com/tensorflow/tflite-micro

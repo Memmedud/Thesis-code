@@ -22,16 +22,22 @@
 # $3 - VLEN, from 32 to 1024 (only applicable if vector extension is enabled)
 
 # Example call to invoke Spike:
-# ./run.sh my_binary.elf rv32gcv 256 64
+# ./run.sh my_binary.elf rv32gcv 64
 
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+if [[ $3 -eq " " ]]; then
+  VLEN="1024"
+else
+  VLEN=$3
+fi
+
 if [[ $2 == "rv32imc" || $2 == "rv32imcv" || $2 == "rv32imcp" ]]; then
-  $SCRIPT_DIR/bin/spike --isa=$2_zicntr_zihpm --varch=vlen:$3,elen:32 $SCRIPT_DIR/bin/pk_ilp32 $1
-elif [[ $2 == "rv32emc" || $2 == "rv32emcv" || $2 == "rv32emcp"]]; then
-  $SCRIPT_DIR/bin/spike --isa="rv32imv_zicntr_zihpm" --varch=vlen:$3,elen:32 $SCRIPT_DIR/bin/pk_ilp32e $1
+  $SCRIPT_DIR/bin/spike --isa=$2_zicsr_zicntr_zihpm --varch=vlen:$VLEN,elen:32 $SCRIPT_DIR/$1
+elif [[ $2 == "rv32emc" || $2 == "rv32emcv" || $2 == "rv32emcp" ]]; then
+  $SCRIPT_DIR/bin/spike --isa=$2_zicsr_zicntr_zihpm --varch=vlen:$VLEN,elen:32 $SCRIPT_DIR/bin/pk_ilp32e $SCRIPT_DIR/$1
 else
   echo "Unsupported arch string $2"
 fi
