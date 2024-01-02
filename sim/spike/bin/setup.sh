@@ -65,7 +65,7 @@ if [[ -d $SCRIPT_DIR/../../../toolchain/riscv-gcc-main ]]; then
         cd $SCRIPT_DIR
         mkdir build
         cd build
-        ../riscv-pk/configure --prefix=$RISCV --host=riscv32-unknown-elf --with-arch=rv32imc_zicsr_zifencei --with-abi=ilp32
+        ../riscv-pk/configure --prefix=$RISCV --host=riscv32-unknown-elf --with-arch=rv32imc_zifencei --with-abi=ilp32
         make 
         make install
         mv pk $SCRIPT_DIR/pk_ilp32
@@ -80,7 +80,7 @@ if [[ -d $SCRIPT_DIR/../../../toolchain/riscv-gcc-main ]]; then
         cd $SCRIPT_DIR
         mkdir build
         cd build
-        ../riscv-pk/configure --prefix=$RISCV --host=riscv32-unknown-elf --with-arch=rv32emc_zicsr_zifencei --with-abi=ilp32e
+        ../riscv-pk/configure --prefix=$RISCV --host=riscv32-unknown-elf --with-arch=rv32emc_zifencei --with-abi=ilp32e
         make 
         make install
         mv pk $SCRIPT_DIR/pk_ilp32e

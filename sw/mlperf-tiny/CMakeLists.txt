@@ -31,6 +31,8 @@ option(USE_RV32E "Use RV32E with reduced register count" OFF)
 option(USE_VEXT "Use the RISC-V V Vector Extension" OFF)
 option(USE_PEXT "Use the RISC-V P Packed Extension" OFF)
 
+option(SPIKE "Compile for Spike ISA simulator" OFF)
+
 if(USE_RV32E)
   if(USE_VEXT)
     set(RISCV_ARCH "rv32emc_zve32x" CACHE STRING "march argument to the compiler, using the vector extension")
@@ -39,7 +41,7 @@ if(USE_RV32E)
   else()
     set(RISCV_ARCH "rv32emc_zicsr" CACHE STRING "march argument to the compiler, using only scalar instructions")
   endif()
-  set(RISCV_ABI "ilp32e_zicsr" CACHE STRING "mabi argument to the compiler")
+  set(RISCV_ABI "ilp32e" CACHE STRING "mabi argument to the compiler")
   set(RISCV_CMODEL "medany" CACHE STRING "mcmodel argument to the compiler")
 else() 
   if(USE_VEXT)
@@ -84,8 +86,8 @@ set(MURISCVNN_LIB ${CMAKE_PROJECT_NAME})
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
 # Using C and C++ 11
-set(CMAKE_C_STANDARD 17)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 11)
 
 if(USE_VEXT AND USE_PEXT)
   message(FATAL_ERROR "V/P-Extension can not be enabled simultaneously.")
@@ -105,16 +107,17 @@ set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0 -g -ggdb")
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0 -g -ggdb")
 set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -O3")
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Wshadow -Wno-format -std=c17")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=c++17 -std=gnu++17")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -Wshadow -Wno-format -std=c11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=c++11")
 
 # Lets stick to standard .elf file ending for now
 set(CMAKE_EXECUTABLE_SUFFIX_C .elf)
 set(CMAKE_EXECUTABLE_SUFFIX_CXX .elf)
 
-add_subdirectory(Source)
-add_subdirectory(Integration)
-
 include(add_intg_test)
 
-#enable_testing() # Need this for later
+add_subdirectory(Source)
+
+enable_testing()
+
+add_subdirectory(Integration)

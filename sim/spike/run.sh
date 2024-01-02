@@ -35,9 +35,9 @@ else
 fi
 
 if [[ $2 == "rv32imc" || $2 == "rv32imcv" || $2 == "rv32imcp" ]]; then
-  $SCRIPT_DIR/bin/spike --isa=$2_zicsr_zicntr_zihpm --varch=vlen:$VLEN,elen:32 $SCRIPT_DIR/$1
+  $SCRIPT_DIR/bin/spike --isa=$2_zicsr_zicntr_zihpm --varch=vlen:$VLEN,elen:32 $SCRIPT_DIR/bin/pk_ilp32 -s $SCRIPT_DIR/$1
 elif [[ $2 == "rv32emc" || $2 == "rv32emcv" || $2 == "rv32emcp" ]]; then
-  $SCRIPT_DIR/bin/spike --isa=$2_zicsr_zicntr_zihpm --varch=vlen:$VLEN,elen:32 $SCRIPT_DIR/bin/pk_ilp32e $SCRIPT_DIR/$1
+  $SCRIPT_DIR/bin/spike --isa=$2_zicsr_zicntr_zihpm --varch=vlen:$VLEN,elen:32 $SCRIPT_DIR/bin/pk_ilp32e -s $SCRIPT_DIR/$1
 else
   echo "Unsupported arch string $2"
 fi
