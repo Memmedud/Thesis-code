@@ -26,6 +26,9 @@ USE_PEXT=OFF
 USE_VEXT=OFF
 USE_RV32E=OFF
 
+SPIKE=ON
+LONG_BENCHMARK=OFF
+
 TOOLCHAIN=GCC
 GCC_PREFIX=${SCRIPT_DIR}../../../toolchain/riscv-gcc-main
 
@@ -79,8 +82,11 @@ if [ ! -d ./_build ]; then
     mkdir _build
 fi
 cd _build
-cmake -DRISCV_GCC_PREFIX=${GCC_PREFIX} -DUSE_RV32E=${USE_RV32E} -DUSE_VEXT=${USE_VEXT} -DUSE_PEXT=${USE_PEXT} -DCMAKE_BUILD_TYPE=Debug ..
+cmake -DRISCV_GCC_PREFIX=${GCC_PREFIX} -DUSE_RV32E=${USE_RV32E} -DUSE_VEXT=${USE_VEXT} -DUSE_PEXT=${USE_PEXT} -DSPIKE=${SPIKE} -DLONG_BENCHMARK=${LONG_BENCHMARK} ..
 make all -j8
 
 echo "*** Moving banaries to common directory ***"
-#mv Integration/tflm/aww/
+mv Integration/tflm/aww/aww_tflm.elf ../../bin/aww_tflm.elf
+mv Integration/tflm/vww/vww_tflm.elf ../../bin/vww_tflm.elf
+mv Integration/tflm/ic/ic_tflm.elf ../../bin/ic_tflm.elf
+mv Integration/tflm/toy/toy_tflm.elf ../../bin/toy_tflm.elf

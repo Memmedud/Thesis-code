@@ -58,6 +58,8 @@ const uint8_t toy_input_data_0000[] = {
 };
 const size_t toy_input_data_0000_len = 640;
 
+#if defined(LONG_BENCHMARKS)
+
 const uint8_t toy_input_data_0001[] = {
   0xd8, 0xee, 0xfa, 0x65, 0x60, 0x25, 0xae, 0xa7, 0xdb, 0x18, 0x7e, 0x94,
   0x3d, 0x2b, 0xdb, 0x0e, 0x78, 0x1d, 0x74, 0xf9, 0x6c, 0xda, 0x1d, 0x45,
@@ -1454,3 +1456,10 @@ const uint8_t* toy_input_data[] = {toy_input_data_0000, toy_input_data_0001, toy
 
 const size_t toy_input_data_len[] = {toy_input_data_0000_len, toy_input_data_0001_len, toy_input_data_0002_len, toy_input_data_0003_len, toy_input_data_0004_len, toy_input_data_0005_len, toy_input_data_0006_len, toy_input_data_0007_len, toy_input_data_0008_len, toy_input_data_0009_len, toy_input_data_0010_len, toy_input_data_0011_len, toy_input_data_0012_len, toy_input_data_0013_len, toy_input_data_0014_len, toy_input_data_0015_len, toy_input_data_0016_len, toy_input_data_0017_len, toy_input_data_0018_len, toy_input_data_0019_len, toy_input_data_0020_len, toy_input_data_0021_len, toy_input_data_0022_len, toy_input_data_0023_len, toy_input_data_0024_len};
 
+#else
+
+const uint8_t* toy_input_data[] = {toy_input_data_0000};
+
+const size_t toy_input_data_len[] = {toy_input_data_0000_len};
+
+#endif

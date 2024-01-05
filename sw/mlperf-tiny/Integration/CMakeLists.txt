@@ -20,10 +20,12 @@ include(add_intg_test)
 
 option(DISABLE_TFLM_INTG_TESTS "Enable tflm integration tests" OFF)
 
-if (NOT USE_VEXT)
-    add_subdirectory(ibex)
-else()
-    add_subdirectory(Vicuna)
+if (NOT SPIKE)
+    if (NOT USE_VEXT)
+        add_subdirectory(ibex)
+    else()
+        add_subdirectory(Vicuna)
+    endif()
 endif()
 
 if(NOT DISABLE_TFLM_INTG_TESTS)

@@ -32,6 +32,7 @@ option(USE_VEXT "Use the RISC-V V Vector Extension" OFF)
 option(USE_PEXT "Use the RISC-V P Packed Extension" OFF)
 
 option(SPIKE "Compile for Spike ISA simulator" OFF)
+option(LONG_BENCHMARK "Compile long benchmarks" OFF)
 
 if(USE_RV32E)
   if(USE_VEXT)

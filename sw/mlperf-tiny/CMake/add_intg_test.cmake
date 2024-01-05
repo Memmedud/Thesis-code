@@ -20,10 +20,10 @@
 macro(add_muriscv_nn_intg_test TEST_NAME)
 
   # Register test with CTest and provide command to execute
-  if(DEFINED RISCV_ARCH)
+  if(NOT SPIKE)
     if(NOT USE_VEXT)
-      set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T ${CMAKE_SOURCE_DIR}/Integration/ibex/link.ld")
-      target_link_options(${TEST_NAME} PRIVATE "-nostartfiles")
+      set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T ${CMAKE_SOURCE_DIR}/Integration/ibex/lld_link.ld")
+      #target_link_options(${TEST_NAME} PRIVATE "-nostartfiles")
       target_link_libraries(${TEST_NAME} PRIVATE ibex_crt)
 
       add_custom_command(TARGET ${TEST_NAME} POST_BUILD
@@ -39,7 +39,7 @@ macro(add_muriscv_nn_intg_test TEST_NAME)
                           "$<TARGET_FILE:${TEST_NAME}>.path" VERBATIM)
     else()
       set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T ${CMAKE_SOURCE_DIR}/Integration/Vicuna/lld_link.ld")
-      target_link_options(${TEST_NAME} PRIVATE "-nostartfiles")
+      #target_link_options(${TEST_NAME} PRIVATE "-nostartfiles")
       target_link_libraries(${TEST_NAME} PRIVATE vicuna_crt)
 
       add_custom_command(TARGET ${TEST_NAME} POST_BUILD

@@ -260,6 +260,8 @@ const uint8_t ic_input_data_001031[] = {
 };
 const size_t ic_input_data_001031_len = 3072;
 
+#if defined(LONG_BENCHMARKS)
+
 const uint8_t ic_input_data_001902[] = {
   0xf4, 0xe2, 0xc9, 0xec, 0xda, 0xc1, 0xec, 0xda, 0xc1, 0xf1, 0xe0, 0xc3,
   0xeb, 0xda, 0xbf, 0xef, 0xdd, 0xc8, 0xf7, 0xe4, 0xd6, 0xf6, 0xe5, 0xd4,
@@ -6504,3 +6506,10 @@ const uint8_t* ic_input_data[] = {ic_input_data_001031, ic_input_data_001902, ic
 
 const size_t ic_input_data_len[] = {ic_input_data_001031_len, ic_input_data_001902_len, ic_input_data_000125_len, ic_input_data_000045_len, ic_input_data_000126_len, ic_input_data_001535_len, ic_input_data_000055_len, ic_input_data_001590_len, ic_input_data_000443_len, ic_input_data_001271_len, ic_input_data_001976_len, ic_input_data_002049_len, ic_input_data_000571_len, ic_input_data_001172_len, ic_input_data_000524_len, ic_input_data_000042_len, ic_input_data_000032_len, ic_input_data_001810_len, ic_input_data_000229_len, ic_input_data_000558_len, ic_input_data_000355_len, ic_input_data_001012_len, ic_input_data_000497_len, ic_input_data_000816_len, ic_input_data_000332_len};
 
+#else
+
+const uint8_t* ic_input_data[] = {ic_input_data_001031};
+
+const size_t ic_input_data_len[] = {ic_input_data_001031_len};
+
+#endif
