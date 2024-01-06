@@ -17,6 +17,7 @@ sw/bin
 
 # Syn stuff
 *nangate45
+*syn_out*
 
 # Misc
 *.DS_Store

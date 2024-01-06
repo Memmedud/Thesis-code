@@ -11,6 +11,7 @@ export PATH=$sv2v/bin:$PATH
 export PATH=$sta/app:$PATH
 
 # Remember to set up syn_setup.sh in ibex syn folder
-$IBEX_DIR/syn/syn_yosys.sh
+cd $IBEX_DIR/syn
+./syn_yosys.sh
 
 # Do something with results...
