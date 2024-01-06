@@ -90,3 +90,5 @@ mv Integration/tflm/aww/aww_tflm.elf ../../bin/aww_tflm.elf
 mv Integration/tflm/vww/vww_tflm.elf ../../bin/vww_tflm.elf
 mv Integration/tflm/ic/ic_tflm.elf ../../bin/ic_tflm.elf
 mv Integration/tflm/toy/toy_tflm.elf ../../bin/toy_tflm.elf
+
+echo "*** DONE! ***"

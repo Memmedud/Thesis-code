@@ -15,6 +15,9 @@ sim/spike/bin/pk_ilp32e
 sw/**Makefile
 sw/bin
 
+# Syn stuff
+*nangate45
+
 # Misc
 *.DS_Store
 *old
