@@ -39,12 +39,12 @@ if [ ! -d yosys ]; then
 	graphviz xdot pkg-config python3 libboost-system-dev \
 	libboost-python-dev libboost-filesystem-dev
 
-    git clone https://github.com/YosysHQ/yosys -b yosys-0.9-2
+    git clone https://github.com/YosysHQ/yosys -b yosys-0.9
     cd yosys
     #make config-clang
     #make 
     #sudo make install
-    sudo apt-get install yosys=0.9  # We dont actually build from source, just install with apt...
+    sudo apt-get install yosys=0.9-2  # We dont actually build from source, just install with apt...
 fi
 
 cd $SCRIPT_DIR
