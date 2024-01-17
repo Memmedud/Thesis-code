@@ -66,7 +66,9 @@ fi
 
 echo "*** Checking if TFLITE has been setup ***"
 if [ ! -d ./Integration/tflm/tflite-micro ]; then
-    ./Integration/tflm/download_tflm.sh
+    cd Integration/tflm
+    ./download_tflm.sh
+    cd $SCRIPT_DIR
 fi
 
 if [ ${CLEAN} -eq 1 ]; then
