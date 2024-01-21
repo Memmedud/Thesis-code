@@ -28,8 +28,6 @@ if [ ! -d sv2v ]; then
     git clone https://github.com/zachjs/sv2v.git
     cd sv2v
     make
-    # TODO: Figure out what to with the binary
-    # Located sv2v/bin/sv2v.exe ...
 fi
 
 cd $SCRIPT_DIR
@@ -58,7 +56,6 @@ if [ ! -d OpenSTA ]; then
     # Comment out line 294 in CMakeLists.txt
     cmake ..
     make
-    # TODO: Figure out what to do with binary in app/sta.exe ...
 fi
 
 cd $SCRIPT_DIR

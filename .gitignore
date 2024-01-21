@@ -6,6 +6,7 @@ toolchain/riscv*
 sim/spike/bin/spike
 sim/spike/bin/pk_ilp32
 sim/spike/bin/pk_ilp32e
+sim/verilated/ibex*
 
 # temporary files
 *build*
@@ -15,7 +16,7 @@ sim/spike/bin/pk_ilp32e
 # SW cmake files
 *CMakeFiles
 sw/**Makefile
-sw/bin
+sw/mlperf-tiny/bin
 *.elf
 *.vmem
 *.bin

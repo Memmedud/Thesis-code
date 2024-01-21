@@ -87,10 +87,14 @@ cd _build
 cmake -DRISCV_GCC_PREFIX=${GCC_PREFIX} -DUSE_RV32E=${USE_RV32E} -DUSE_VEXT=${USE_VEXT} -DUSE_PEXT=${USE_PEXT} -DSPIKE=${SPIKE} -DLONG_BENCHMARK=${LONG_BENCHMARK} ..
 make all -j8
 
+if [ ! -d ../bin ]; then
+    mkdir ../bin
+fi
+
 echo "*** Moving banaries to common directory ***"
-mv Integration/tflm/aww/aww_tflm.elf ../../bin/aww_tflm.elf
-mv Integration/tflm/vww/vww_tflm.elf ../../bin/vww_tflm.elf
-mv Integration/tflm/ic/ic_tflm.elf ../../bin/ic_tflm.elf
-mv Integration/tflm/toy/toy_tflm.elf ../../bin/toy_tflm.elf
+mv Integration/tflm/aww/aww_tflm.elf ../bin/aww_tflm.elf
+mv Integration/tflm/vww/vww_tflm.elf ../bin/vww_tflm.elf
+mv Integration/tflm/ic/ic_tflm.elf ../bin/ic_tflm.elf
+mv Integration/tflm/toy/toy_tflm.elf ../bin/toy_tflm.elf
 
 echo "*** DONE! ***"

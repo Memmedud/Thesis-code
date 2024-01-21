@@ -29,22 +29,22 @@ reset_handler:
   mv x13, x1
   mv x14, x1
   mv x15, x1
-  mv x16, x1
-  mv x17, x1
-  mv x18, x1
-  mv x19, x1
-  mv x20, x1
-  mv x21, x1
-  mv x22, x1
-  mv x23, x1
-  mv x24, x1
-  mv x25, x1
-  mv x26, x1
-  mv x27, x1
-  mv x28, x1
-  mv x29, x1
-  mv x30, x1
-  mv x31, x1
+  #mv x16, x1
+  #mv x17, x1
+  #mv x18, x1
+  #mv x19, x1
+  #mv x20, x1
+  #mv x21, x1
+  #mv x22, x1
+  #mv x23, x1
+  #mv x24, x1
+  #mv x25, x1
+  #mv x26, x1
+  #mv x27, x1
+  #mv x28, x1
+  #mv x29, x1
+  #mv x30, x1
+  #mv x31, x1
 
   /* stack initilization */
   la   x2, _stack_start
@@ -53,15 +53,15 @@ _start:
   .global _start
 
   /* clear BSS */
-  la x26, _bss_start
-  la x27, _bss_end
+  la x5, _bss_start
+  la x6, _bss_end
 
-  bge x26, x27, zero_loop_end
+  bge x5, x6, zero_loop_end
 
 zero_loop:
-  sw x0, 0(x26)
-  addi x26, x26, 4
-  ble x26, x27, zero_loop
+  sw x0, 0(x5)
+  addi x5, x5, 4
+  ble x5, x6, zero_loop
 zero_loop_end:
 
 
