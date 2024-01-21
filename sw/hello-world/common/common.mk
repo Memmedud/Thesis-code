@@ -8,8 +8,8 @@ COMMON_SRCS = $(wildcard $(COMMON_DIR)/*.c)
 INCS := -I$(COMMON_DIR)
 
 # ARCH = rv32im # to disable compressed instructions
-ARCH ?= rv32imc_zicsr
-ABI ?= ilp32
+ARCH ?= rv32emc_zicsr
+ABI ?= ilp32e
 
 ifdef PROGRAM
 PROGRAM_C := $(PROGRAM).c

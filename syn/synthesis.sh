@@ -14,7 +14,7 @@ export PATH=$sta/app:$PATH
 # TODO: Export yosys binary as well if we ever build from source
 
 # Remember to set up syn_setup.sh in ibex syn folder
-cd $IBEX_DIR/syn
+cd $IBEX_PEXT_DIR/syn
 ./syn_yosys.sh
 
 # Do something with results...

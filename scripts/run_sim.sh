@@ -23,6 +23,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 EXE_DIR=$SCRIPT_DIR/../sw/hello-world/hello_test/hello_test.vmem
+#EXE_DIR=$SCRIPT_DIR/../hw/ibex_pext/examples/sw/benchmarks/coremark/coremark.elf
 
 USE_PEXT=OFF
 USE_VEXT=OFF
