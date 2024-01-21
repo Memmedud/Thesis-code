@@ -22,6 +22,8 @@ set -euo pipefail
 # Path to this script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+EXE_DIR=$SCRIPT_DIR/../sw/hello-world/hello_test/hello_test.vmem
+
 USE_PEXT=OFF
 USE_VEXT=OFF
 USE_RV32E=OFF
@@ -55,7 +57,10 @@ if [ ${CLEAN} -eq 1 ]; then
 
             cd $SCRIPT_DIR/../hw/ibex_pext
             fusesoc --cores-root=. run --target=sim --setup --build lowrisc:ibex:ibex_simple_system $(util/ibex_config.py experimental-pext-small-rv32e fusesoc_opts)
-            mv build $SCRIPT_DIR/../sim/verilated/ibex_rv32emcp
+            if [ -d build/ibex_rv32emcp ]; then
+                rm -rf build/ibex_rv32emcp
+            fi
+            mv build/lowrisc_ibex_ibex_simple_system_0 build/ibex_rv32emcp
 
         elif [ "${USE_VEXT}" == "ON" ]; then
 
@@ -64,9 +69,12 @@ if [ ${CLEAN} -eq 1 ]; then
 
         else
 
-            cd $SCRIPT_DIR/../hw/ibex
+            cd $SCRIPT_DIR/../hw/ibex_pext
             fusesoc --cores-root=. run --target=sim --setup --build lowrisc:ibex:ibex_simple_system $(util/ibex_config.py small-rv32e fusesoc_opts)
-            mv build $SCRIPT_DIR/../sim/verilated/ibex_rv32emc
+            if [ -d build/ibex_rv32emc ]; then
+                rm -rf build/ibex_rv32emc
+            fi
+            mv build/lowrisc_ibex_ibex_simple_system_0 build/ibex_rv32emc
 
         fi
     else
@@ -74,7 +82,10 @@ if [ ${CLEAN} -eq 1 ]; then
 
             cd $SCRIPT_DIR/../hw/ibex_pext
             fusesoc --cores-root=. run --target=sim --setup --build lowrisc:ibex:ibex_simple_system $(util/ibex_config.py experimental-pext-small fusesoc_opts)
-            mv build $SCRIPT_DIR/../sim/verilated/ibex_rv32imcp
+            if [ -d build/ibex_rv32imcp ]; then
+                rm -rf build/ibex_rv32imcp
+            fi
+            mv build/lowrisc_ibex_ibex_simple_system_0 build/ibex_rv32imcp
 
         elif [ "${USE_VEXT}" == "ON" ]; then
 
@@ -85,21 +96,22 @@ if [ ${CLEAN} -eq 1 ]; then
 
             cd $SCRIPT_DIR/../hw/ibex_pext
             fusesoc --cores-root=. run --target=sim --setup --build lowrisc:ibex:ibex_simple_system $(util/ibex_config.py small fusesoc_opts)
-            if [ -d $SCRIPT_DIR/../sim/verilated/ibex_rv32imc ]; then
-                rm -rf $SCRIPT_DIR/../sim/verilated/ibex_rv32imc
+            if [ -d build/ibex_rv32imc ]; then
+                rm -rf build/ibex_rv32imc
             fi
-            mv build $SCRIPT_DIR/../sim/verilated/ibex_rv32imc
+            mv build/lowrisc_ibex_ibex_simple_system_0 build/ibex_rv32imc
 
         fi
     fi
 fi
 
 echo "*** Running SW ***"
-cd $SCRIPT_DIR
+cd $SCRIPT_DIR/../hw/ibex_pext
 if [ "${USE_RV32E}" == "ON" ]; then
     if [ "${USE_PEXT}" == "ON" ]; then
 
-        ./../sim/verilated/ibex_rv32emcp/lowrisc_ibex_ibex_simple_system_0/sim-verilator/Vibex_simple_system [-t] --meminit=ram,../../sw/$2
+        cd build/ibex_rv32emcp
+        ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
 
     elif [ "${USE_VEXT}" == "ON" ]; then
 
@@ -108,13 +120,15 @@ if [ "${USE_RV32E}" == "ON" ]; then
 
     else
 
-        ./../sim/verilated/ibex_rv32emc/lowrisc_ibex_ibex_simple_system_0/sim-verilator/Vibex_simple_system [-t] --meminit=ram,../../sw/$2
+        cd build/ibex_rv32emc
+        ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
 
     fi
 else
     if [ "${USE_PEXT}" == "ON" ]; then
 
-        ./../sim/verilated/ibex_rv32imcp/lowrisc_ibex_ibex_simple_system_0/sim-verilator/Vibex_simple_system [-t] --meminit=ram,../../sw/$2
+        cd build/ibex_rv32imcp
+        ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
 
     elif [ "${USE_VEXT}" == "ON" ]; then
 
@@ -123,7 +137,8 @@ else
 
     else
 
-        ./../sim/verilated/ibex_rv32imc/lowrisc_ibex_ibex_simple_system_0/sim-verilator/Vibex_simple_system [-t] --meminit=ram,../../sw/$2
+        cd build/ibex_rv32imc
+        ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
 
     fi
 fi
