@@ -1,0 +1,3066 @@
+tcl ./tcl/yosys_post_synth.tcl
+cd ibex_top
+select _25055_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23895_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24254_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24921_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24663_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24221_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25039_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25005_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24837_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24578_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24747_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24776_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24562_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24270_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24508_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23643_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23782_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23818_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24209_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24734_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24751_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24283_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23944_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24197_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24393_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23654_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24953_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24272_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24040_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23924_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24322_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23676_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23803_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23757_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24208_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23928_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24687_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24303_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24827_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24775_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24042_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24448_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24403_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24842_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24121_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24415_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24334_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24753_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24779_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23616_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24035_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24383_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24291_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23914_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24211_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24182_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24241_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23700_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25077_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24395_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24826_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23961_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23907_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23624_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23823_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24968_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24764_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23718_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23860_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23887_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25120_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24233_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23683_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24770_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23934_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23952_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24860_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23933_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23691_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24212_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24331_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23967_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24808_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24162_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23935_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24128_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24749_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25054_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24896_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24131_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24872_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24843_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23988_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23728_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24742_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24053_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23937_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23760_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24005_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24956_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23916_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24382_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24337_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25037_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23636_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24119_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23773_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24718_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24951_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25035_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25056_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24950_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23820_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24252_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24659_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25095_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23847_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25064_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25024_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24960_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25013_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24602_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24813_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24245_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24607_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24193_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24207_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24730_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25087_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23954_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24701_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25104_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23652_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24463_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23987_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24619_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24556_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24979_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25060_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24384_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24013_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24092_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24082_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24835_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23675_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23658_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23610_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23982_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23904_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24574_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24745_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25052_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24122_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24044_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24577_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24191_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24343_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23996_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24027_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24127_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23926_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24952_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25007_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24620_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23679_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24278_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23618_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23756_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24375_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23802_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24185_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24651_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25105_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25108_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24626_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23702_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24473_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24446_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23912_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24335_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24515_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24583_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24750_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23841_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24262_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24735_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24132_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24059_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24069_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24737_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24985_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24181_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24919_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24517_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24522_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24404_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23995_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24355_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24992_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25075_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24712_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24649_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24480_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23703_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24490_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23732_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24669_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24765_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24766_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24917_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24895_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24715_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24329_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24615_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24462_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24644_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24061_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23839_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23900_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23735_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24177_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24535_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24405_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24277_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23930_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24106_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24831_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24276_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24962_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24852_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23846_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24339_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23801_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23790_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24514_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24471_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24470_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23707_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24242_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23614_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24436_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23626_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24847_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24724_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24699_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24440_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23611_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23856_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23816_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25135_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23877_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24876_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24576_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24380_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25020_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24257_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24854_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24672_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24834_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24800_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24469_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24738_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23822_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23746_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24944_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23748_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24990_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23673_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24510_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23994_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24497_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24664_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23889_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24399_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24407_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25086_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24099_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24271_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25136_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24563_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24216_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24697_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24575_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23951_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24733_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24537_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24310_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24281_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24369_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24196_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23621_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24922_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24886_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25118_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25068_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24482_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23832_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24037_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24995_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24098_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23764_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23867_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24160_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24433_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25109_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24643_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23989_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23738_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25111_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23672_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24740_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23690_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25126_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24223_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24702_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23755_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24261_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24935_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24817_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24511_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24130_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24389_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24581_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23741_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24034_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24146_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24681_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24503_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24568_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24409_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24068_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23991_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24705_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24939_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23878_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24757_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23795_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24072_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24720_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23998_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23981_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24478_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23615_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24844_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24293_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24736_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24984_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24806_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24200_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24195_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24528_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24900_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24719_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24530_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24449_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24296_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25141_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23724_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24579_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24138_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24487_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24319_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23910_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24727_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23813_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24137_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24787_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24638_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24622_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24665_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24571_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25088_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24782_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25091_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25025_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24648_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24708_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24206_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24373_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23648_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23723_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24494_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24772_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23836_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24057_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25004_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24812_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25125_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24731_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23674_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24049_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24313_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24923_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25050_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24628_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23661_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24704_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24149_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24194_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24893_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24075_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25140_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23717_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25133_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24464_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24899_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25131_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24880_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23973_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24927_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23779_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24247_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23620_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24239_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24853_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24845_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25043_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24328_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25089_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24227_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24974_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24441_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24235_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24476_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24694_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24739_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24910_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23901_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23736_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24594_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24377_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23666_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24234_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23641_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24232_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24104_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24981_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24062_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24954_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24230_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24689_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24691_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23688_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23687_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24039_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23993_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24225_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23874_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23888_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23765_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24410_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24018_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23980_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25082_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24904_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24090_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24762_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25026_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23976_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24166_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23946_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24565_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23747_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23637_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23682_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24085_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24892_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24083_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24662_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24320_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23815_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25061_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23840_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24429_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24881_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24804_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24856_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24184_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24231_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24338_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24240_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24055_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24617_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23739_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24007_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24046_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23923_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23657_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24142_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24780_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23769_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24115_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24769_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23806_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24909_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23819_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24513_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24290_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24264_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24192_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23709_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24862_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24265_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25041_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24333_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23851_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23704_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24298_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24120_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23693_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23609_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23753_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24489_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24833_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23852_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25070_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25127_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23780_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23645_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23761_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24692_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24773_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24536_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23972_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24676_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24612_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23891_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24558_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24076_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25040_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25036_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23752_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23807_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24406_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24002_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23990_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24378_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23630_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24094_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24327_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25142_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23787_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23854_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24830_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24991_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23716_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24332_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25053_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24425_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24767_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24683_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24807_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24966_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24273_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24746_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24445_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25124_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24170_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23786_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25130_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23647_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24349_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23721_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23777_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24317_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24064_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23663_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25038_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23983_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24413_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24696_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24631_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23808_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23612_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24616_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24973_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24586_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24222_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24220_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24531_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24491_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23876_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24589_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25073_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23861_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24141_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24111_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24573_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24455_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25000_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23695_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24461_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23843_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25090_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24009_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25034_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24084_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23798_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24178_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24450_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24912_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24020_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23791_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23662_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23617_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23677_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24520_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24505_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24564_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24203_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25003_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24169_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25067_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24723_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24210_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23758_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25103_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24832_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23727_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23638_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24901_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25110_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25121_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25031_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23692_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24316_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24300_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24998_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23623_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24759_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24366_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24819_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23659_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24457_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23651_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23668_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24961_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24295_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25042_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24074_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24481_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24763_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23929_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24593_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24603_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24774_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24394_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24559_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24431_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24706_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24168_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23749_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24879_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24906_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24838_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24354_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24840_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24636_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25017_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24971_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24722_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24483_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24495_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24660_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24430_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24555_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23838_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23959_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24381_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23957_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24158_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24963_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23681_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24250_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24029_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24422_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24108_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24269_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23919_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25112_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24330_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24358_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25019_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25018_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23958_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24597_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24946_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23622_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24465_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23726_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23634_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23699_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24624_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24618_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24499_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24398_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23855_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23781_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24521_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24977_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24700_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23750_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24350_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24539_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23859_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24342_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24685_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24871_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24400_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23949_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24931_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24561_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23669_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24324_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23906_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23858_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24666_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25047_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23880_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24642_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23744_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24639_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24524_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24882_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24307_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23796_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23714_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24839_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24217_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24226_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23711_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24173_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24883_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24015_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24267_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24889_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23742_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23873_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24907_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24999_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23708_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24396_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24286_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23897_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23627_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23632_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25098_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24050_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24540_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24260_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23635_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24259_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23978_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24134_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24604_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24026_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24214_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24456_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24123_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25023_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25116_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24326_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24258_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23694_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24101_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24285_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24147_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24688_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24790_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24353_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23686_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24043_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23997_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24248_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24255_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24635_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23680_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23685_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24371_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24302_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23701_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24829_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24661_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24611_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23640_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23842_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24114_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24682_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23767_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24675_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25113_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24887_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24507_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24390_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24475_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24237_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24591_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23879_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23712_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23974_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23689_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24031_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24418_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24392_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23872_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24174_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24970_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25114_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25092_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24345_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24033_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23911_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24934_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24058_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23955_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24199_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23898_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24306_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24397_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24102_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24427_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24647_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23905_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24356_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24548_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24891_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23866_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24865_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25081_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25021_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25066_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24504_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24091_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24229_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23918_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24340_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23629_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24439_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24630_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24943_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24215_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24093_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23664_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24846_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24870_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24527_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23970_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24280_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24417_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24459_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24802_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24150_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24864_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23719_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24243_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23812_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24346_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23977_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24932_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24153_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24690_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24063_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24793_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24032_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24492_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23628_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24051_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25107_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24411_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24596_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24627_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24703_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23915_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24023_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24915_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25062_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23642_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24477_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24219_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24401_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24632_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24165_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24868_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24030_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24799_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24113_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24792_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24650_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24016_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24155_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25063_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24789_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24414_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23925_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23774_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25106_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23948_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23696_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23684_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24253_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24348_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24460_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23992_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24352_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25139_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24982_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23966_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23965_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23844_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24717_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24920_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24136_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24674_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23909_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24100_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24538_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24294_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23862_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24288_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24145_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25015_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24598_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24621_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24110_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24080_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24311_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24341_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24653_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24825_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24885_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24580_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24386_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24599_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23875_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24693_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24408_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24698_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23710_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24680_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25097_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24365_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24022_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24743_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24595_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23759_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24905_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24268_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24372_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24424_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24822_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24613_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24721_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23848_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23971_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24795_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23864_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24420_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24670_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24279_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24052_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24673_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24582_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23870_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23705_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24940_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23698_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24930_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23922_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23831_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24945_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23899_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24308_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23671_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25022_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24251_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24955_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24890_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23792_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23644_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24543_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24180_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25101_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24019_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24077_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24947_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24877_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24004_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24466_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24938_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24167_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24878_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24863_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23886_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24523_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24796_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24376_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24637_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24850_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23837_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24803_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24472_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23869_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24213_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24551_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23950_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24218_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25129_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24024_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24755_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24336_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24532_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24187_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24067_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24315_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23730_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24282_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24275_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23811_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24367_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25001_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23763_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23619_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23893_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25143_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24996_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24823_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24814_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23849_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23660_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23655_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23885_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25048_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25071_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24658_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25059_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24788_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24287_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24458_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24741_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23722_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24588_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24103_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24903_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24645_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24097_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24875_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24525_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24171_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23713_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24014_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23960_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23817_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23943_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24888_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24610_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24488_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24496_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23857_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24017_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24467_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23670_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25011_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25102_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23881_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24686_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23975_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24484_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23653_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24752_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24001_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24805_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24502_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24363_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25137_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24198_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23667_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24105_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24143_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24089_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23650_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24421_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24419_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24078_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23785_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24542_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24073_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24976_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24249_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23733_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23784_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23984_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23908_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23902_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24179_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24902_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24274_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24634_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24297_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25138_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24646_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23913_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25044_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24190_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25016_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24368_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24884_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24175_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24978_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24435_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23882_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24781_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24201_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24452_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23940_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23865_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24785_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23794_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23825_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24109_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25029_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24140_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24321_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24236_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24550_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23706_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23776_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24263_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24036_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24768_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24957_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24857_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24936_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24625_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24975_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23633_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24364_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25084_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24668_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24443_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23938_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24560_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23737_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24711_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24873_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24474_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24066_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25010_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24677_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23939_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23985_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24205_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24587_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24065_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24124_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25033_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24828_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24144_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24416_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24453_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23770_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24898_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24312_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24021_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24783_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23775_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25074_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24728_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24760_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25002_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24112_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23754_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25078_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23810_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25045_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24309_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23725_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23830_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23932_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24859_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24605_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23828_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24671_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23979_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25028_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24609_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24810_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24432_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23639_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24533_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23649_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24897_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24299_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24038_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24654_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24726_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25057_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24869_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23826_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24959_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24942_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24841_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24606_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23697_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25051_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24713_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23863_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24566_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24725_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24818_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24189_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24028_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24914_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23762_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24987_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25117_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24925_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24811_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24519_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24501_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24972_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24164_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23809_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24444_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25072_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23613_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24485_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24866_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24657_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24362_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24133_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24567_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24601_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24569_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23751_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24801_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25012_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24493_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24325_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24836_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23962_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25096_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24729_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24351_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24086_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24858_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23968_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24797_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24714_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23729_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24633_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23768_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24391_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24125_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24641_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25006_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24202_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24156_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24479_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24554_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25115_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24988_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24592_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23894_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24412_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23896_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25030_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24301_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23920_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23986_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23608_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24937_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24151_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24867_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25083_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24913_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24980_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24553_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24791_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24848_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23953_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23892_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24824_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25100_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24544_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24159_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24347_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24756_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24096_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24709_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25014_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24754_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24370_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24926_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24204_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23734_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24428_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24246_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24385_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23646_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24081_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23771_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23814_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24361_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24678_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25093_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23740_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25094_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24266_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24861_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24314_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25123_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23835_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24969_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24549_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24360_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25085_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24154_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24809_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24707_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24948_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24518_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24771_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24933_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24821_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23999_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24238_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24107_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23947_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24163_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24758_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24928_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23778_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23800_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24506_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24256_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24585_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24590_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24993_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24761_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23631_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23625_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24224_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25128_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24986_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24442_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23665_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24434_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23804_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24437_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24186_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24451_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24526_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23917_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23871_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24047_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24000_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23927_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24011_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24048_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24509_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24438_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24958_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24529_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24744_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23799_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24045_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24894_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23678_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23883_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25119_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23853_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24908_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24402_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24716_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25069_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24486_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23884_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23964_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24983_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24318_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23921_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23834_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24188_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24547_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24148_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24600_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24468_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23824_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24794_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23850_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24388_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24570_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24552_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23845_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23833_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25027_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24183_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24652_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24118_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24289_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24911_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23941_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24060_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24054_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23903_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23931_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24387_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23656_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25049_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24512_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25008_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23715_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24964_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24012_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23720_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24815_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24176_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24929_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24849_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24614_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24006_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23969_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24965_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24344_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24025_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24732_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24357_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24874_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24798_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23936_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24534_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23821_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24516_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24379_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24423_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25132_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24545_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25079_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24447_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24851_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23942_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24088_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24623_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24584_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24228_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24967_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24918_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23956_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24041_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24684_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23945_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24941_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25134_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25076_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24071_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25065_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24572_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23829_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24079_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24748_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24820_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25046_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24117_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24989_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23827_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23963_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24557_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24374_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24667_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24244_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25099_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24161_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24994_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24172_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24292_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24640_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23766_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25058_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24500_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24056_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24629_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23797_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23789_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25122_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24426_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24152_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24679_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24541_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24784_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25032_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24710_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24778_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23890_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23788_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24010_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24087_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23743_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24924_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24304_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23745_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24116_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23731_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24695_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25009_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24786_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24656_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24359_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24777_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24498_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23868_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24997_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24323_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24608_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24126_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23783_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24129_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24855_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23805_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24070_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24949_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24546_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24454_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24305_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24095_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24655_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _25080_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23793_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24157_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _23772_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24816_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24916_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list
+select _24284_ %x:+[Q]
+tee -a ./syn_out/ibex_22_01_2024_10_54_26/generated/ys_translated_names select -list

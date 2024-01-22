@@ -12,6 +12,7 @@ sim/verilated/ibex*
 *build*
 *.o
 *.d
+*-debug
 
 # SW cmake files
 *CMakeFiles
