@@ -22,21 +22,26 @@ set -euo pipefail
 # Path to this script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-EXE_DIR=$SCRIPT_DIR/../sw/hello-world/hello_test/hello_test.vmem
+#EXE_DIR=$SCRIPT_DIR/../sw/hello-world/hello_test/hello_test.vmem
+EXE_DIR=$SCRIPT_DIR/../sw/pext-test/pext_test/pext_test.vmem
 #EXE_DIR=$SCRIPT_DIR/../hw/ibex_pext/examples/sw/benchmarks/coremark/coremark.elf
+#EXE_DIR=$SCRIPT_DIR/../sw/mlperf-tiny/bin/aww_tflm.elf
 
 USE_PEXT=OFF
 USE_VEXT=OFF
 USE_RV32E=OFF
 
+VIEW=OFF
+
 CLEAN=0
 
 #Parse Input Args
-while getopts ':pvech' flag; do
+while getopts ':pvechtw' flag; do
   case "${flag}" in
     p) USE_PEXT=ON ;;
     v) USE_VEXT=ON ;;
     e) USE_RV32E=ON ;;
+    w) VIEW=ON ;;
     c) CLEAN=1 ;;
     * | h) echo "Add -p to use packed extension"
            echo "Add -v to use vector extension"
@@ -142,6 +147,10 @@ else
         ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
 
     fi
+fi
+
+if [ "${VIEW}" == "ON" ]; then
+    gtkwave sim.vcd
 fi
 
 
