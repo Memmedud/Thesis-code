@@ -16,9 +16,23 @@ int main(int argc, char **argv) {
   puthex(0xBAADF00D);
   putchar('\n');
 
-  pcount_enable(0);
+  // TODO: Add more Pext intrinsics here...
+  puthex(0x01010101 + 0x01010101);
+  putchar('\n');
+  puthex(__rv_uradd8(0xf97f4080, 0xbf0708bf));
+  putchar('\n');
+  puthex(__rv_uradd16(0x00000000, 0x0a14ff60));
+  putchar('\n');
+  puthex(__rv_add8(0xff00ff00, 0xaa00aa00));
+  putchar('\n');
+  puthex(__rv_uradd8(0xaaaaaaaa, 0xffffffff));
+  putchar('\n');
+  puthex(__rv_ursub8(0x0000ffff, 0x01010101));
+  putchar('\n');
+  puthex(__rv_kadd8(0xffffffff, 0x11111111));
+  putchar('\n');
 
-  // TODO: Add Pext intrinsics here...
+  pcount_enable(0);
 
   return 0;
 }
