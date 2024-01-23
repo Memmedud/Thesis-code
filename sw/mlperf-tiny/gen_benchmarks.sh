@@ -30,7 +30,11 @@ SPIKE=ON
 LONG_BENCHMARK=OFF
 
 TOOLCHAIN=GCC
-GCC_PREFIX=${SCRIPT_DIR}../../../toolchain/riscv-gcc-main
+if [ "{$USE_PEXT}" == "ON" ]; then
+    GCC_PREFIX=${SCRIPT_DIR}../../../toolchain/riscv-gcc-pext
+else
+    GCC_PREFIX=${SCRIPT_DIR}../../../toolchain/riscv-gcc-main
+fi
 
 CLEAN=0
 
@@ -85,7 +89,10 @@ if [ ! -d ./_build ]; then
 fi
 cd _build
 cmake -DRISCV_GCC_PREFIX=${GCC_PREFIX} -DUSE_RV32E=${USE_RV32E} -DUSE_VEXT=${USE_VEXT} -DUSE_PEXT=${USE_PEXT} -DSPIKE=${SPIKE} -DLONG_BENCHMARK=${LONG_BENCHMARK} ..
-make all -j8
+make aww_tflm -j8
+make ic_tflm  -j8
+make toy_tflm -j8
+make vww_tflm -j8
 
 if [ ! -d ../bin ]; then
     mkdir ../bin

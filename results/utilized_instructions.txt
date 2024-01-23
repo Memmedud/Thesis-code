@@ -1,0 +1,60 @@
+AWW:
+Number of matches for 'add16': 23
+Number of matches for 'add64': 100
+Number of matches for 'kmabb': 16
+Number of matches for 'kmatt': 16
+Number of matches for 'kmada': 38
+Number of matches for 'maddr32': 363
+Number of matches for 'msubr32': 2
+Number of matches for 'smar64': 126
+Number of matches for 'smaqa': 80
+Number of matches for 'smax8': 4
+Number of matches for 'smin8': 2
+Number of matches for 'sub64': 20
+Number of matches for 'sunpkd810': 36
+Number of matches for 'sunpkd832': 36
+
+IC:
+Number of matches for 'add16': 7
+Number of matches for 'add64': 140
+Number of matches for 'kadd16': 6
+Number of matches for 'kmada': 38
+Number of matches for 'maddr32': 295
+Number of matches for 'msubr32': 1
+Number of matches for 'smar64': 129
+Number of matches for 'smaqa': 80
+Number of matches for 'smax8': 4
+Number of matches for 'smax16': 2
+Number of matches for 'smin8': 2
+Number of matches for 'smin16': 2
+Number of matches for 'sub64': 20
+Number of matches for 'sunpkd810': 22
+Number of matches for 'sunpkd832': 22
+
+TOY:
+Number of matches for 'add16': 7
+Number of matches for 'add64': 47
+Number of matches for 'kmada': 38
+Number of matches for 'maddr32': 174
+Number of matches for 'msubr32': 1
+Number of matches for 'smar64': 35
+Number of matches for 'smaqa': 80
+Number of matches for 'sub64': 20
+Number of matches for 'sunpkd810': 20
+Number of matches for 'sunpkd832': 20
+
+VWW:
+Number of matches for 'add16': 23
+Number of matches for 'add64': 100
+Number of matches for 'kmabb': 16
+Number of matches for 'kmatt': 16
+Number of matches for 'kmada': 38
+Number of matches for 'maddr32': 363
+Number of matches for 'msubr32': 2
+Number of matches for 'smar64': 126
+Number of matches for 'smaqa': 80
+Number of matches for 'smax8': 4
+Number of matches for 'smin8': 2
+Number of matches for 'sub64': 20
+Number of matches for 'sunpkd810': 36
+Number of matches for 'sunpkd832': 36
