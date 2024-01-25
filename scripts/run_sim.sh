@@ -22,8 +22,9 @@ set -euo pipefail
 # Path to this script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+EXE_DIR=""
 #EXE_DIR=$SCRIPT_DIR/../sw/hello-world/hello_test/hello_test.vmem
-EXE_DIR=$SCRIPT_DIR/../sw/pext-test/pext_test/pext_test.vmem
+#EXE_DIR=$SCRIPT_DIR/../sw/pext-test/pext_test/pext_test.vmem
 #EXE_DIR=$SCRIPT_DIR/../hw/ibex_pext/examples/sw/benchmarks/coremark/coremark.elf
 #EXE_DIR=$SCRIPT_DIR/../sw/mlperf-tiny/bin/aww_tflm.elf
 
@@ -111,46 +112,48 @@ if [ ${CLEAN} -eq 1 ]; then
     fi
 fi
 
-echo "*** Running SW ***"
-cd $SCRIPT_DIR/../hw/ibex_pext
-if [ "${USE_RV32E}" == "ON" ]; then
-    if [ "${USE_PEXT}" == "ON" ]; then
+if [ $EXE_DIR -ne "" ]; then
+    echo "*** Running SW ***"
+    cd $SCRIPT_DIR/../hw/ibex_pext
+    if [ "${USE_RV32E}" == "ON" ]; then
+        if [ "${USE_PEXT}" == "ON" ]; then
 
-        cd build/ibex_rv32emcp
-        ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
+            cd build/ibex_rv32emcp
+            ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
 
-    elif [ "${USE_VEXT}" == "ON" ]; then
+        elif [ "${USE_VEXT}" == "ON" ]; then
 
-        #cd $SCRIPT_DIR/../hw/vicuna
-        echo "We dont support vicuna yet!"
+            #cd $SCRIPT_DIR/../hw/vicuna
+            echo "We dont support vicuna yet!"
 
+        else
+
+            cd build/ibex_rv32emc
+            ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
+
+        fi
     else
+        if [ "${USE_PEXT}" == "ON" ]; then
 
-        cd build/ibex_rv32emc
-        ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
+            cd build/ibex_rv32imcp
+            ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
 
+        elif [ "${USE_VEXT}" == "ON" ]; then
+
+            #cd $SCRIPT_DIR/../hw/vicuna
+            echo "We dont support vicuna yet!"
+
+        else
+
+            cd build/ibex_rv32imc
+            ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
+
+        fi
     fi
-else
-    if [ "${USE_PEXT}" == "ON" ]; then
 
-        cd build/ibex_rv32imcp
-        ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
-
-    elif [ "${USE_VEXT}" == "ON" ]; then
-
-        #cd $SCRIPT_DIR/../hw/vicuna
-        echo "We dont support vicuna yet!"
-
-    else
-
-        cd build/ibex_rv32imc
-        ./sim-verilator/Vibex_simple_system [-t] --meminit=ram,$EXE_DIR
-
+    if [ "${VIEW}" == "ON" ]; then
+        gtkwave sim.vcd
     fi
-fi
-
-if [ "${VIEW}" == "ON" ]; then
-    gtkwave sim.vcd
 fi
 
 

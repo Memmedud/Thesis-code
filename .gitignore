@@ -2,6 +2,9 @@
 # Toolchain
 toolchain/riscv*
 
+# Verilator files
+hw/pext_tb/verilated/tb
+
 # Sim
 sim/spike/bin/spike
 sim/spike/bin/pk_ilp32
