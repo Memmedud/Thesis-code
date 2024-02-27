@@ -1,6 +1,6 @@
 [submodule "hw/ibex"]
 	path = hw/ibex
-	url = https://github.com/michael-platzer/ibex.git
+	url = https://github.com/lowRISC/ibex
 [submodule "hw/ibex_pext"]
 	path = hw/ibex_pext
 	url = https://github.com/Memmedud/ibex
