@@ -12,4 +12,4 @@
 [submodule "sw/riscv-arch-test"]
 	path = sw/riscv-arch-test
 	url = https://github.com/Memmedud/riscv-arch-test
-	branch = old-framework-2.x
+	branch = old-framework-pext

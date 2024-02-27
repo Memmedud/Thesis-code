@@ -1,0 +1,295 @@
+*** Running compliance tests ***
+
+============================ VARIABLE INFO ==================================
+ROOTDIR: /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test [origin: file]
+WORK: /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work [origin: file]
+TARGETDIR: /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-target [origin: file]
+RISCV_TARGET: ibex [origin: environment]
+XLEN: 32 [origin: file]
+RISCV_DEVICE: I [origin: command line]
+=============================================================================
+
+make -j1 \
+        RISCV_TARGET=ibex \
+        RISCV_DEVICE=I \
+        run -C /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-test-suite/rv32i_m/I
+make[1]: Entering directory '/home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-test-suite/rv32i_m/I'
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/add-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/add-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/addi-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/addi-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/and-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/and-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/andi-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/andi-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/auipc-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/auipc-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/beq-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/beq-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/bge-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/bge-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/bgeu-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/bgeu-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/blt-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/blt-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/bltu-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/bltu-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/bne-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/bne-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/jal-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/jal-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/jalr-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/jalr-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lb-align-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lb-align-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lbu-align-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lbu-align-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lh-align-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lh-align-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lhu-align-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lhu-align-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lui-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lui-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lw-align-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/lw-align-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/or-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/or-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/ori-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/ori-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sb-align-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sb-align-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sh-align-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sh-align-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sll-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sll-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/slli-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/slli-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/slt-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/slt-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/slti-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/slti-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sltiu-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sltiu-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sltu-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sltu-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sra-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sra-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/srai-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/srai-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/srl-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/srl-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/srli-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/srli-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sub-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sub-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sw-align-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/sw-align-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/xor-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/xor-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/xori-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/xori-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/fence-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/I/fence-01.log
+make[1]: Leaving directory '/home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-test-suite/rv32i_m/I'
+riscv-test-env/verify.sh
+
+
+Compare to reference files ... 
+
+Check add-01                    ... OK 
+Check addi-01                   ... OK 
+Check and-01                    ... OK 
+Check andi-01                   ... OK 
+Check auipc-01                  ... OK 
+Check beq-01                    ... FAIL 
+Check bge-01                    ... FAIL 
+Check bgeu-01                   ... FAIL 
+Check blt-01                    ... FAIL 
+Check bltu-01                   ... FAIL 
+Check bne-01                    ... FAIL 
+Check fence-01                  ... OK 
+Check jal-01                    ... FAIL 
+Check jalr-01                   ... OK 
+Check lb-align-01               ... OK 
+Check lbu-align-01              ... OK 
+Check lh-align-01               ... OK 
+Check lhu-align-01              ... OK 
+Check lui-01                    ... OK 
+Check lw-align-01               ... OK 
+Check or-01                     ... OK 
+Check ori-01                    ... OK 
+Check sb-align-01               ... OK 
+Check sh-align-01               ... OK 
+Check sll-01                    ... OK 
+Check slli-01                   ... OK 
+Check slt-01                    ... OK 
+Check slti-01                   ... OK 
+Check sltiu-01                  ... OK 
+Check sltu-01                   ... OK 
+Check sra-01                    ... OK 
+Check srai-01                   ... OK 
+Check srl-01                    ... OK 
+Check srli-01                   ... OK 
+Check sub-01                    ... OK 
+Check sw-align-01               ... OK 
+Check xor-01                    ... OK 
+Check xori-01                   ... OK 
+--------------------------------
+ FAIL: 7/38 RISCV_TARGET=ibex RISCV_DEVICE=I XLEN=32 
+
+make: *** [Makefile:90: verify] Error 1
+
+============================ VARIABLE INFO ==================================
+ROOTDIR: /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test [origin: file]
+WORK: /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work [origin: file]
+TARGETDIR: /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-target [origin: file]
+RISCV_TARGET: ibex [origin: environment]
+XLEN: 32 [origin: file]
+RISCV_DEVICE: C [origin: command line]
+=============================================================================
+
+make -j1 \
+        RISCV_TARGET=ibex \
+        RISCV_DEVICE=C \
+        run -C /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-test-suite/rv32i_m/C
+make[1]: Entering directory '/home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-test-suite/rv32i_m/C'
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cadd-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cadd-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/caddi-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/caddi-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/caddi16sp-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/caddi16sp-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/caddi4spn-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/caddi4spn-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cand-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cand-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/candi-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/candi-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cbeqz-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cbeqz-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cbnez-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cbnez-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cj-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cj-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cjal-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cjal-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cjalr-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cjalr-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cjr-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cjr-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cli-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cli-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/clui-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/clui-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/clw-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/clw-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/clwsp-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/clwsp-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cmv-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cmv-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cnop-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cnop-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cor-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cor-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cslli-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cslli-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/csrai-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/csrai-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/csrli-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/csrli-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/csub-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/csub-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/csw-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/csw-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cswsp-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cswsp-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cxor-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cxor-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cebreak-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/C/cebreak-01.log
+make[1]: Leaving directory '/home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-test-suite/rv32i_m/C'
+riscv-test-env/verify.sh
+
+
+Compare to reference files ... 
+
+Check cadd-01                   ... OK 
+Check caddi-01                  ... OK 
+Check caddi16sp-01              ... OK 
+Check caddi4spn-01              ... OK 
+Check cand-01                   ... OK 
+Check candi-01                  ... OK 
+Check cbeqz-01                  ... OK 
+Check cbnez-01                  ... OK 
+Check cebreak-01                ... FAIL 
+Check cj-01                     ... OK 
+Check cjal-01                   ... OK 
+Check cjalr-01                  ... OK 
+Check cjr-01                    ... OK 
+Check cli-01                    ... OK 
+Check clui-01                   ... OK 
+Check clw-01                    ... OK 
+Check clwsp-01                  ... OK 
+Check cmv-01                    ... OK 
+Check cnop-01                   ... OK 
+Check cor-01                    ... OK 
+Check cslli-01                  ... OK 
+Check csrai-01                  ... OK 
+Check csrli-01                  ... OK 
+Check csub-01                   ... OK 
+Check csw-01                    ... OK 
+Check cswsp-01                  ... OK 
+Check cxor-01                   ... OK 
+--------------------------------
+ FAIL: 1/27 RISCV_TARGET=ibex RISCV_DEVICE=C XLEN=32 
+
+make: *** [Makefile:90: verify] Error 1
+
+============================ VARIABLE INFO ==================================
+ROOTDIR: /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test [origin: file]
+WORK: /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work [origin: file]
+TARGETDIR: /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-target [origin: file]
+RISCV_TARGET: ibex [origin: environment]
+XLEN: 32 [origin: file]
+RISCV_DEVICE: M [origin: command line]
+=============================================================================
+
+make -j1 \
+        RISCV_TARGET=ibex \
+        RISCV_DEVICE=M \
+        run -C /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-test-suite/rv32i_m/M
+make[1]: Entering directory '/home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-test-suite/rv32i_m/M'
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/div-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/div-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/divu-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/divu-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/mul-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/mul-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/mulh-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/mulh-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/mulhsu-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/mulhsu-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/mulhu-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/mulhu-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/rem-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/rem-01.log
+Compile /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/remu-01.elf
+Execute /home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/work/rv32i_m/M/remu-01.log
+make[1]: Leaving directory '/home/mats/masteroppgave/Thesis-code/sw/riscv-arch-test/riscv-test-suite/rv32i_m/M'
+riscv-test-env/verify.sh
+
+
+Compare to reference files ... 
+
+Check div-01                    ... OK 
+Check divu-01                   ... OK 
+Check mul-01                    ... OK 
+Check mulh-01                   ... OK 
+Check mulhsu-01                 ... OK 
+Check mulhu-01                  ... OK 
+Check rem-01                    ... OK 
+Check remu-01                   ... OK 
+--------------------------------
+ OK: 8/8 RISCV_TARGET=ibex RISCV_DEVICE=M XLEN=32 
+
+*** Finished ***
