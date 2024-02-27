@@ -10,6 +10,6 @@
 	url = https://github.com/vproc/vicuna
 	branch = master
 [submodule "sw/riscv-arch-test"]
-	path = sw/riscv-arch-tests
+	path = sw/riscv-arch-test
 	url = https://github.com/Memmedud/riscv-arch-test
 	branch = old-framework-2.x
