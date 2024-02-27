@@ -1,7 +1,4 @@
-[submodule "hw/ibex"]
-	path = hw/ibex
-	url = https://github.com/lowRISC/ibex
-	branch = master
+
 [submodule "hw/ibex_pext"]
 	path = hw/ibex_pext
 	url = https://github.com/Memmedud/ibex
