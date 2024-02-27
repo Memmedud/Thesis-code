@@ -4,12 +4,12 @@
 [submodule "hw/ibex_pext"]
 	path = hw/ibex_pext
 	url = https://github.com/Memmedud/ibex
-	branch = master
+	branch = pext-experiment
 [submodule "hw/vicuna"]
 	path = hw/vicuna
 	url = https://github.com/vproc/vicuna
 	branch = master
-[submodule "sw/benchmarks/riscv-tests"]
-	path = sw/benchmarks/riscv-tests
-	url = https://github.com/riscv-software-src/riscv-tests
-	branch = master
+[submodule "sw/riscv-arch-test"]
+	path = sw/riscv-arch-tests
+	url = https://github.com/Memmedud/riscv-arch-test
+	branch = old-framework-2.x
