@@ -1,6 +1,6 @@
 
-opA = 0x1254_5739
-opB = 0x4534_8374
+opA = -0x800F_08a3
+opB = 0x0000_0125
 
 # Generate true results
 trueResult32 = opA * opB
@@ -47,9 +47,15 @@ sum33 = A3*B3
 # 8x8-bit
 print(hex(sum33), hex(sum22), hex(sum11), hex(sum00))
 
+#print one qudrant
+print(hex(sum33), hex(sum32), hex(sum23), hex(sum22))
+
 # 16x16-bit
 sum16_00 = (sum00 + (sum01 << 8)) + (((sum10 << 8) + (sum11 << 16)))
-sum16_11 = (sum22 + (sum23 << 8)) + (((sum32 << 8) + (sum33 << 16)))
+sum16_11 = (sum22 + (sum23 << 8)) + (((sum32 << 8) + (sum33 << 16))) + (sum22 & 0xFF)
+
+
+sum16_11 = (sum22 & 0xFF) + (((sum33 + ((sum32 & 0xFF00) >> 8)) << 8 + (sum32 & 0xFF)) << 8) + ((sum33 + ((sum32 & 0xFF00) >> 8)) << 8 + (sum22 & 0xFF))
 print(hex(sum16_11), hex(sum16_00))
 
 # 32x32-bit
