@@ -82,7 +82,7 @@ module ibex_pext_tb;
 
 
   always @(posedge clk) begin
-    $display($stime,,,"alu_result=%8h", alu_result);
+    $display($stime,,,"alu_result=%8h mult_valid=%1b imd_val1=%8h imd_val0=%8h quad=%2b", alu_result, valid, imd_val_q[1], imd_val_q[0], alu_pext.mult_pext_i.quadrant);
   end
 
   initial begin
@@ -90,19 +90,20 @@ module ibex_pext_tb;
 
     imm_val = 5'b00110;
 
-    alu_operand_a  = 32'ha545_0015;
-    alu_operand_b  = 32'h9142_18d4;
-    alu_operand_rd = 32'h0000_0000;
+    alu_operand_a  = 32'h1545_0015;
+    //alu_operand_a  = 32'ha545_a545;
+    alu_operand_b  = 32'h5142_18d4;
+    alu_operand_rd = 32'hffff_ffff;
 
-    zpn_operator = ZPN_SCLIP8;
+    zpn_operator = ZPN_KMMSB;
     alu_operator = ZPN_INSTR;
-    md_operator  = MD_OP_MULL;
+    md_operator  = MD_OP_MULH;
 
-    multdiv_sel = 1'b0;
-    mult_en = 1'b0;
+    multdiv_sel = 1'b1;
+    mult_en = 1'b1;
     div_en = 1'b0;
-    mult_sel = 1'b0;
-    div_sel = 1'b0;
+    mult_sel = mult_en;
+    div_sel = div_en;
     signed_mode = 2'b00;
     multdiv_ready_id = 1'b0;
     data_ind_timing = 1'b0;
@@ -112,17 +113,18 @@ module ibex_pext_tb;
     //$display("%4b", alu_pext.saturated);
     $display("%1b", valid);
     $display("%1b", set_ov);
-    $display("%4b", alu_pext.clrs_res);
-    $display("%4b", alu_pext.clip_saturation);
+    $display("%1b", alu_pext.signed_ops);
+    $display("%1b", alu_pext.mult_pext_i.crossed);
+    $display("%4b", alu_pext.mult_pext_i.saturated);
     $display("%4b", alu_pext.operand_negative);
     $display("%8h", alu_pext.shift_result);
     $display("%8h", alu_pext.clip_mask);
-    $display("%8h", alu_pext.residual_result);
-    $display("%8h", alu_pext.clip_val);
-    $display("%8h", alu_pext.clip_val_result);
-    $display("%8h", alu_pext.bit_cnt_result);
+   //$display("%8h", alu_pext.mult_pext_i.sum_op_a);
+    $display("%8h", alu_pext.mult_pext_i.mult_sum_32x32W);
 
     #40;
+    $display("%8h", alu_pext.mult_pext_i.mult_sum_32x32W);
+    $display("%8h", imd_val_q);
     $finish;
   end
 
