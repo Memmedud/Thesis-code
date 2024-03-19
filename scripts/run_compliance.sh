@@ -63,6 +63,7 @@ fi
 
 #export RISCV_DEVICE=rv32imc
 export RISCV_TARGET=ibex
+#export RISCV_TARGET=spike
 
 if [ "${USE_RV32E}" == "1" ]; then
     if [ "${USE_PEXT}" == "ibex_pkg::RV32PZpn" ]; then
@@ -85,10 +86,37 @@ else
     if [ "${USE_PEXT}" == "ibex_pkg::RV32PZpn" ]; then
 
         echo "*** Running compliance tests ***"
-        make RISCV_DEVICE=I
-        make RISCV_DEVICE=C
-        make RISCV_DEVICE=M
-        #make RISCV_DEVICE=P
+        # make RISCV_DEVICE=I
+        # cd $SCRIPT_DIR/../sw/riscv-arch-test
+        # if [ -d diffs/I ]; then
+        #     rm -rf diffs/I
+        # fi
+        # mkdir diffs/I
+        # mv work/rv32i_m/I/*.diff diffs/I
+
+        # make RISCV_DEVICE=C
+        # cd $SCRIPT_DIR/../sw/riscv-arch-test
+        # if [ -d diffs/C ]; then
+        #     rm -rf diffs/C
+        # fi
+        # mkdir diffs/C
+        # mv work/rv32i_m/C/*.diff diffs/C
+
+        # make RISCV_DEVICE=M
+        # cd $SCRIPT_DIR/../sw/riscv-arch-test
+        # if [ -d diffs/M ]; then
+        #     rm -rf diffs/M
+        # fi
+        # mkdir diffs/M
+        # mv work/rv32i_m/M/*.diff diffs/M
+
+        make RISCV_DEVICE=P
+        cd $SCRIPT_DIR/../sw/riscv-arch-test
+        if [ -d diffs/P ]; then
+            rm -rf diffs/P
+        fi
+        mkdir diffs/P
+        mv work/rv32i_m/P/*.diff diffs/P
 
     else
 

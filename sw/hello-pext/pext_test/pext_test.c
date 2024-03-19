@@ -16,7 +16,7 @@ int main(int argc, char **argv) {
   puthex(0xBAADF00D);
   putchar('\n');
 
-  // TODO: Add more Pext intrinsics here...
+  putchar('\n');
   puthex(0x01010101 + 0x01010101);
   putchar('\n');
   puthex(__rv_uradd8(0xf97f4080, 0xbf0708bf));
@@ -30,6 +30,10 @@ int main(int argc, char **argv) {
   puthex(__rv_ursub8(0x0000ffff, 0x01010101));
   putchar('\n');
   puthex(__rv_kadd8(0xffffffff, 0x11111111));
+  putchar('\n');
+  puthex(__rv_sll16(0x000000a3, 0x0000005));
+  putchar('\n');
+  puthex(__rv_khm16(0x000000a3, 0x0000005));
   putchar('\n');
 
   pcount_enable(0);

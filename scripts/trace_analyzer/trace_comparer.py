@@ -7,13 +7,18 @@ def compare_files(file1, file2):
     # Compare lines and report differences
     num_lines = min(len(lines1), len(lines2))
     for i in range(num_lines):
-        if lines1[i] != lines2[i]:
+        line1 = lines1[i].strip().split()[2:]
+        line2 = lines2[i].strip().split()[2:]
+        if line1 != line2:
             print(f"Line {i + 1} differs:")
-            print(f"   {file1}: {lines1[i].strip()}")
-            print(f"   {file2}: {lines2[i].strip()}")
+            print(f"   {file2}: {lines2[i-1]}")
+            print(f"   {file1}: {lines1[i-1]}")
+            print(f"   {file1}: {lines1[i]}")
+            print(f"   {file2}: {lines2[i]}")
             print()
             num_differences += 1
-        if num_differences > 20:
+        if num_differences > 50:
+            print("Too many diffs")
             break
 
     # Report if one file has more lines than the other
@@ -25,6 +30,6 @@ def compare_files(file1, file2):
         print("Both files have the same number of lines.")
 
 # Example usage:
-file1 = "/home/mats/prosjektoppgave/Thesis-code/hw/ibex/trace_core_00000000.log"
-file2 = "/home/mats/prosjektoppgave/Thesis-code/hw/ibex_pext/trace_core_00000000.log"
+file1 = "/home/mats/masteroppgave/Thesis-code/hw/ibex/trace_core_00000000.log"
+file2 = "/home/mats/masteroppgave/Thesis-code/hw/ibex_pext/trace_core_00000000.log"
 compare_files(file1, file2)
