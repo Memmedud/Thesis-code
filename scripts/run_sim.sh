@@ -22,7 +22,7 @@ set -euo pipefail
 # Path to this script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-EXE_DIR=""
+EXE_DIR="/home/mats/masteroppgave/Thesis-code/sw/hello-world/hello_test/hello_test.vmem"
 #EXE_DIR=$SCRIPT_DIR/../sw/hello-world/hello_test/hello_test.vmem
 #EXE_DIR=$SCRIPT_DIR/../sw/pext-test/pext_test/pext_test.vmem
 #EXE_DIR=$SCRIPT_DIR/../hw/ibex_pext/examples/sw/benchmarks/coremark/coremark.elf
@@ -71,8 +71,8 @@ if [ ${CLEAN} -eq 1 ]; then
 
         elif [ "${USE_VEXT}" == "ON" ]; then
 
-            #cd $SCRIPT_DIR/../hw/vicuna
-            echo "We dont support vicuna yet!"
+            echo "Vicuna is automatically build when running sims on it"
+
 
         else
 
@@ -112,7 +112,7 @@ if [ ${CLEAN} -eq 1 ]; then
     fi
 fi
 
-if [ $EXE_DIR -ne "" ]; then
+if [ "$EXE_DIR" != "" ]; then
     echo "*** Running SW ***"
     cd $SCRIPT_DIR/../hw/ibex_pext
     if [ "${USE_RV32E}" == "ON" ]; then
@@ -124,7 +124,7 @@ if [ $EXE_DIR -ne "" ]; then
         elif [ "${USE_VEXT}" == "ON" ]; then
 
             #cd $SCRIPT_DIR/../hw/vicuna
-            echo "We dont support vicuna yet!"
+            echo "We dont support RV32E on vicuna yet!"
 
         else
 
@@ -140,8 +140,9 @@ if [ $EXE_DIR -ne "" ]; then
 
         elif [ "${USE_VEXT}" == "ON" ]; then
 
-            #cd $SCRIPT_DIR/../hw/vicuna
-            echo "We dont support vicuna yet!"
+            cd $SCRIPT_DIR/../hw/vicuna/sim
+            echo $EXE_DIR > /home/mats/masteroppgave/Thesis-code/hw/vicuna/sim/progs.txt
+            make
 
         else
 
