@@ -26,7 +26,7 @@ USE_PEXT=OFF
 USE_VEXT=OFF
 USE_RV32E=OFF
 
-SPIKE=ON
+SPIKE=OFF
 LONG_BENCHMARK=OFF
 
 TOOLCHAIN=GCC
@@ -89,10 +89,10 @@ if [ ! -d ./_build ]; then
 fi
 cd _build
 cmake -DRISCV_GCC_PREFIX=${GCC_PREFIX} -DUSE_RV32E=${USE_RV32E} -DUSE_VEXT=${USE_VEXT} -DUSE_PEXT=${USE_PEXT} -DSPIKE=${SPIKE} -DLONG_BENCHMARK=${LONG_BENCHMARK} ..
-make aww_tflm -j8
-make ic_tflm  -j8
-make toy_tflm -j8
-make vww_tflm -j8
+make aww_tflm -j8 > aww.log
+make ic_tflm  -j8 > ic.log
+make toy_tflm -j8 > toy.log
+make vww_tflm -j8 > vww.log
 
 if [ ! -d ../bin ]; then
     mkdir ../bin
