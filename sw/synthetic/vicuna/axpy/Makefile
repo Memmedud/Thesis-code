@@ -20,8 +20,8 @@ RISCV_FLAGS := -march=$(ARCH) -mabi=ilp32 -static -mcmodel=medany             \
 
 CFLAGS := $(CFLAGS) -I$(SW_DIR)/lib/
 
-PROG ?= matmult
-OBJ  ?= matmult.c
+PROG ?= axpy
+OBJ  ?= axpy.c
 
 # add crt0 to object files
 RISCV_OBJ := $(SW_DIR)/crt0.o $(OBJ) $(SW_DIR)/lib/uart.o $(SW_DIR)/lib/simple_system_common.o $(SW_DIR)/lib/runtime.o
