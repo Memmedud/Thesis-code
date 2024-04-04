@@ -20,13 +20,13 @@ SRCS = $(COMMON_SRCS) $(PROGRAM_C) $(EXTRA_SRCS)
 C_SRCS = $(filter %.c, $(SRCS))
 ASM_SRCS = $(filter %.S, $(SRCS))
 
-CC = ../../../toolchain/riscv-gcc-main/bin/riscv32-unknown-elf-gcc
-#CC = ../../../toolchain/riscv-gcc-pext/bin/riscv32-unknown-elf-gcc
+CC = ../../../../toolchain/riscv-gcc-main/bin/riscv32-unknown-elf-gcc
+#CC = ../../../../toolchain/riscv-gcc-pext/bin/riscv32-unknown-elf-gcc
 #CC = gcc
 
-OBJCOPY = ../../../toolchain/riscv-gcc-main/bin/riscv32-unknown-elf-objcopy
+OBJCOPY = ../../../../toolchain/riscv-gcc-main/bin/riscv32-unknown-elf-objcopy
 #OBJCOPY = objcopy
-OBJDUMP = ../../../toolchain/riscv-gcc-main/bin/riscv32-unknown-elf-objdump
+OBJDUMP = ../../../../toolchain/riscv-gcc-main/bin/riscv32-unknown-elf-objdump
 #OBJDUMP = objdump
 
 #OBJCOPY ?= $(subst gcc,objcopy,$(wordlist 1,1,$(CC)))

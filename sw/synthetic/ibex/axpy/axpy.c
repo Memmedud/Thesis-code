@@ -6,15 +6,26 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define USE_PEXT
+//#define USE_PEXT
 #define WIDTH8
 
 #if defined(USE_PEXT)
 #include <rvp_intrinsic.h>
 #endif
 
-#define N 100000   // Size of the vectors
+#define N 8192     // Size of the vectors
 #define A 3        // Scalar value
+
+#if defined(WIDTH8)
+  volatile int8_t  x[N];
+  volatile int8_t  y[N];
+#elif defined(WIDTH16)
+  volatile int16_t  x[N];
+  volatile int16_t  y[N];
+#elif defined(WIDTH32)
+  volatile int32_t  x[N];
+  volatile int32_t  y[N];
+#endif
 
 #if defined(WIDTH8)
   // 8-bit AXPY
@@ -24,13 +35,13 @@
       simd_a = (a << 24) | (a << 16) | (a << 8) | (a << 0);
 
       for (int i = 0; i < n/4; i++) {
-          y[i] = __rv_smaqa(y[i], simd_a, *((int *)(&x[i*4])));
+        y[i] = __rv_smaqa(y[i], simd_a, *((int *)(&x[i*4])));
       }
     }
   #else
     void axpy(const int8_t *x, int32_t *y, int a, int n) {
       for (int i = 0; i < n; i++) {
-          y[i] += a * x[i];
+        y[i] += a * x[i];
       }
     }
   #endif
@@ -57,7 +68,7 @@
   #if defined(USE_PEXT)
     void axpy(const uint32_t *x, uint32_t *y, int a, int n) {
         for (int i = 0; i < n; i++) {
-            y[i] = __rv_smar32(y[i], a, x[i]);
+            y[i] = __rv_maddr32(y[i], a, x[i]);
         }
     }
   #else
@@ -70,6 +81,10 @@
 #endif
 
 int main() {
+
+  // Need to to this to stop GCC optimizing the value
+  int volatile a = A;
+
   pcount_enable(0);
   pcount_reset();
 
@@ -79,21 +94,10 @@ int main() {
   puthex(0xBAADF00D);
   putchar('\n');
 
-#if defined(WIDTH8)
-  uint8_t  *x = (uint8_t  *)malloc(N * sizeof(uint8_t));
-  uint32_t *y = (uint32_t *)malloc(N * sizeof(uint32_t));
-#elif defined(WIDTH16)
-  uint16_t *x = (uint16_t *)malloc(N * sizeof(uint16_t));
-  uint32_t *y = (uint32_t *)malloc(N * sizeof(uint32_t));
-#elif defined(WIDH32)
-  uint32_t *x = (uint32_t *)malloc(N * sizeof(uint32_t));
-  uint32_t *y = (uint32_t *)malloc(N * sizeof(uint32_t));
-#endif
-
   // Initialize Vectors
-  puts("Initializing vectors...\n")
+  puts("Initializing vectors...\n");
   int val = 1;
-  for (int i = 0; i < n; ++i) {
+  for (int i = 0; i < N; ++i) {
     x[i] = val;
     y[i] = val + 1;
     if (val > 64)
@@ -105,18 +109,21 @@ int main() {
   // Perform AXPY operation
   puts("Running AXPY benchmark...\n");
   pcount_enable(1);
-  axpy(x, y, A, N);
+  axpy(x, y, a, N);
   pcount_enable(0);
 
   // Print first and last elements of new vector to verify
+  puts("( ");
   for (int i = 0; i < 4; ++i) {
-    putbyte("%x", y[i]);
+    putbyte(y[i]);
+    puts(" ");
   }
-  uart_printf(" ... ");
-  for (int i = 4; i == 1; --i) {
-    putbyte("%x", y[n-i]);
+  puts("... ");
+  for (int i = N-4; i < N; ++i) {
+    putbyte(y[i]);
+    puts(" ");
   }
-  putchar("\n");
+  puts(") \n");
 
   return 0;
 }
