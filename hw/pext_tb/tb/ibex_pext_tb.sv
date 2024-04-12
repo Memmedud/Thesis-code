@@ -50,6 +50,7 @@ module ibex_pext_tb;
     .rst_ni             (1'b1),
 
     .zpn_operator_i     (zpn_operator),
+    .zpn_instr_i        (1'b1),
     .alu_operator_i     (alu_operator),
     .multdiv_operator_i (md_operator),
 
@@ -82,25 +83,33 @@ module ibex_pext_tb;
 
 
   always @(posedge clk) begin
-    $display($stime,,,"alu_result=%8h mult_valid=%1b imd_val1=%8h imd_val0=%8h quad=%2b cc=%2b sub=%2b fsm=%2b", alu_result, valid, imd_val_q[1], imd_val_q[0], alu_pext.mult_pext_i.zpn_signed_mult, alu_pext.mult_pext_i.cycle_count, alu_pext.mult_pext_i.accum_sub, alu_pext.mult_pext_i.mult_state);
+    //$display($stime,,,"alu_result=%8h mult_valid=%1b imd_val1=%8h imd_val0=%8h quad=%2b cc=%2b div_en=%1b divbyzero=%1b divstate=%3b", alu_result, valid, imd_val_q[1], imd_val_q[0], alu_pext.mult_pext_i.zpn_signed_mult, alu_pext.mult_pext_i.cycle_count, alu_pext.mult_pext_i.div_en_internal, alu_pext.mult_pext_i.div_by_zero_d, alu_pext.mult_pext_i.md_state_q);
+    $display($stime,,,"alu_result=%8h mult_result=%12h imd_val1=%8h imd_val0=%8h op_b=%8h valid=%1b is_byte_less=%4b signed_mult=%2b", alu_result, alu_pext.mult_pext_i.mult_sum_16x16_0, alu_pext.mult_pext_i.mult_sum_16x16_1, imd_val_d[1], imd_val_d[0], alu_pext.mult_pext_i.valid_o, alu_pext.is_byte_less, alu_pext.mult_pext_i.zpn_signed_mult);
   end
 
   initial begin
     #20;
 
-    imm_val = 5'b00110;
+    imm_val = 5'h1b;
 
-    alu_operand_a  = 32'h1545_0015;
-    //alu_operand_a  = 32'ha545_a545;
-    alu_operand_b  = 32'h5142_18d4;
-    alu_operand_rd = 32'h0000_0050;
+    //alu_operand_a  = 32'h1545_0015;
+    //alu_operand_a  = 32'hffff_7fff;
+    //alu_operand_a  = 32'haaaa_aaab;
+    alu_operand_a  = 32'hff7fffff;
+    //alu_operand_a  = 32'hffff_fdff;
+    //alu_operand_b  = 32'h5142_18d4;
+    //alu_operand_b  = 32'hffff_f7ff;
+    //alu_operand_b  = 32'hffff_ffff;
+    alu_operand_b  = 32'h8;
+    //alu_operand_b  = 32'h0000_0003;
+    alu_operand_rd = 32'h0;
 
-    zpn_operator = ZPN_KMAXDA;
+    zpn_operator = ZPN_KSLLW;
     alu_operator = ZPN_INSTR;
-    md_operator  = MD_OP_MULH;
+    md_operator  = MD_OP_MULL;
 
-    multdiv_sel = 1'b1;
-    mult_en = 1'b1;
+    multdiv_sel = 1'b0;
+    mult_en = 1'b0;
     div_en = 1'b0;
     mult_sel = mult_en;
     div_sel = div_en;
@@ -111,20 +120,23 @@ module ibex_pext_tb;
     #10;
     //mult_en = 1'b1;
     //$display("%4b", alu_pext.saturated);
-    $display("%1b", valid);
-    $display("%1b", set_ov);
-    $display("%1b", alu_pext.mult_pext_i.add_mode);
-    $display("%1b", alu_pext.mult_pext_i.narrow_ops);
-    $display("%4b", alu_pext.mult_pext_i.saturated);
-    $display("%4b", alu_pext.operand_negative);
+    $display("%8h", ~alu_pext.shift_mask);
+    $display("%4b", alu_pext.saturation_bytes);
+    $display("%4b", alu_pext.shift_saturation);
+    $display("%4b", alu_pext.saturated);
+    $display("%4b", alu_pext.shift);
+    $display("%8h", alu_pext.operand_a_i);
+    $display("%8h", alu_pext.shift_left);
     $display("%8h", alu_pext.shift_result);
-    $display("%8h", alu_pext.clip_mask);
-   //$display("%8h", alu_pext.mult_pext_i.sum_op_a);
-    $display("%8h", alu_pext.mult_pext_i.sum_ker0);
+    $display("%8h", alu_pext.saturating_result);
+    $display("%8h", alu_pext.sat_imm_shift_result);
+    $display("%8h", alu_pext.sat_op2);
+    $display("%8h", alu_pext.sat_op1);
+    $display("%8h", alu_pext.imm_instr);
+
 
     #40;
-    $display("%8h", alu_pext.mult_pext_i.mult_sum_32x32W);
-    $display("%8h", imd_val_q);
+    //#500;
     $finish;
   end
 

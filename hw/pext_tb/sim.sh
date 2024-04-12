@@ -35,7 +35,7 @@ tb=$SCRIPT_DIR/tb/ibex_pext_tb.sv
 mult_tb=$SCRIPT_DIR/tb/ibex_pext_mult_tb.sv
 data_packet=$SCRIPT_DIR/tb/data_packet.sv
 
-verilator --binary --top-module ibex_pext_tb -j 0 -Wall -Wno-UNUSEDPARAM -Wno-UNUSEDSIGNAL $ibex_pkg_pext $ibex_pkg $ibex_alu_pext $ibex_alu_pext_helper $ibex_mult_pext $ibex_mult_pext_helper $tb
+verilator --binary --top-module ibex_pext_tb -j 0 -Wall -Wno-UNUSEDPARAM  -Wno-UNUSEDSIGNAL $ibex_pkg_pext $ibex_pkg $ibex_alu_pext $ibex_alu_pext_helper $ibex_mult_pext $ibex_mult_pext_helper $tb
 #verilator --binary --top-module ibex_pext_mult_tb -j 0 -Wall $ibex_pkg_pext $ibex_alu_pext $ibex_decoder_pext $ibex_mult_pext $mult_tb
 #verilator --binary --top-module ibex_pext_tb -j 0 -Wall $ibex_pkg_pext $ibex_alu_pext $ibex_decoder_pext $tb
 
@@ -44,5 +44,5 @@ if [ -d $VERILATOR_OUT_DIR/tb ]; then
 fi
 mv obj_dir $VERILATOR_OUT_DIR/tb
 
-$VERILATOR_OUT_DIR/tb/Vibex_pext_tb
+$VERILATOR_OUT_DIR/tb/Vibex_pext_tb 
 #$VERILATOR_OUT_DIR/tb/Vibex_pext_mult_tb +verilator+seed+859473
