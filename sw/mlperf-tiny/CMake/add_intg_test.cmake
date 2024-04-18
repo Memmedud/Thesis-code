@@ -23,24 +23,21 @@ macro(add_muriscv_nn_intg_test TEST_NAME)
   if(NOT SPIKE)
     if(NOT USE_VEXT)
       set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T ${CMAKE_SOURCE_DIR}/Integration/ibex/link.ld")
-      #target_link_options(${TEST_NAME} PRIVATE "-nostartfiles")
-      target_link_libraries(${TEST_NAME} PRIVATE ibex_crt)
+      target_link_options(${TEST_NAME} PUBLIC -nostartfiles)
+      target_link_libraries(${TEST_NAME} PUBLIC ibex)
 
       add_custom_command(TARGET ${TEST_NAME} POST_BUILD
         COMMAND ${CMAKE_OBJCOPY} -O binary "$<TARGET_FILE:${TEST_NAME}>"
-                                            "$<TARGET_FILE:${TEST_NAME}>.bin")
+                                            "$<TARGET_FILE:${TEST_NAME}>.bin" VERBATIM)
 
       add_custom_command(TARGET ${TEST_NAME} POST_BUILD
         COMMAND srec_cat "$<TARGET_FILE:${TEST_NAME}>.bin" -binary -offset 0x0000 -byte-swap 4 -o
-                          "$<TARGET_FILE:${TEST_NAME}>.vmem" -vmem)
+                          "$<TARGET_FILE:${TEST_NAME}>.vmem" -vmem VERBATIM)
 
-      add_custom_command(TARGET ${TEST_NAME} POST_BUILD
-        COMMAND realpath "$<TARGET_FILE:${TEST_NAME}>.vmem" >
-                          "$<TARGET_FILE:${TEST_NAME}>.path" VERBATIM)
     else()
       set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T ${CMAKE_SOURCE_DIR}/Integration/Vicuna/lld_link.ld")
-      #target_link_options(${TEST_NAME} PRIVATE "-nostartfiles")
-      target_link_libraries(${TEST_NAME} PRIVATE vicuna_crt)
+      target_link_options(${TEST_NAME} PUBLIC -nostartfiles)
+      target_link_libraries(${TEST_NAME} PUBLIC vicuna_crt)
 
       add_custom_command(TARGET ${TEST_NAME} POST_BUILD
         COMMAND ${CMAKE_OBJCOPY} -O binary "$<TARGET_FILE:${TEST_NAME}>"

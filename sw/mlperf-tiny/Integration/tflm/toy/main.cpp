@@ -55,24 +55,95 @@ int run_test()
         uint32_t diff = abs(sum - toy_output_data_ref[i]);
         if (diff > 1)
         {
-            printf("ERROR: at #%d, sum %d ref %d diff %d \n", i, sum, toy_output_data_ref[i], diff);
+            puts("ERROR\n");
             return -1;
         }
         else
         {
-            printf("Sample #%d pass, sum %d ref %d diff %d \n", i, sum, toy_output_data_ref[i], diff);
+            puts("PASS\n");
         }
     }
 
     return 0;
 }
 
+void pcount_reset() {
+  __asm__ volatile(
+      "csrw minstret,       x0\n"
+      "csrw mcycle,         x0\n"
+      "csrw mhpmcounter3,   x0\n"
+      "csrw mhpmcounter4,   x0\n"
+      "csrw mhpmcounter5,   x0\n"
+      "csrw mhpmcounter6,   x0\n"
+      "csrw mhpmcounter7,   x0\n"
+      "csrw mhpmcounter8,   x0\n"
+      "csrw mhpmcounter9,   x0\n"
+      "csrw mhpmcounter10,  x0\n"
+      "csrw mhpmcounter11,  x0\n"
+      "csrw mhpmcounter12,  x0\n"
+      "csrw mhpmcounter13,  x0\n"
+      "csrw mhpmcounter14,  x0\n"
+      "csrw mhpmcounter15,  x0\n"
+      "csrw mhpmcounter16,  x0\n"
+      "csrw mhpmcounter17,  x0\n"
+      "csrw mhpmcounter18,  x0\n"
+      "csrw mhpmcounter19,  x0\n"
+      "csrw mhpmcounter20,  x0\n"
+      "csrw mhpmcounter21,  x0\n"
+      "csrw mhpmcounter22,  x0\n"
+      "csrw mhpmcounter23,  x0\n"
+      "csrw mhpmcounter24,  x0\n"
+      "csrw mhpmcounter25,  x0\n"
+      "csrw mhpmcounter26,  x0\n"
+      "csrw mhpmcounter27,  x0\n"
+      "csrw mhpmcounter28,  x0\n"
+      "csrw mhpmcounter29,  x0\n"
+      "csrw mhpmcounter30,  x0\n"
+      "csrw mhpmcounter31,  x0\n"
+      "csrw minstreth,      x0\n"
+      "csrw mcycleh,        x0\n"
+      "csrw mhpmcounter3h,  x0\n"
+      "csrw mhpmcounter4h,  x0\n"
+      "csrw mhpmcounter5h,  x0\n"
+      "csrw mhpmcounter6h,  x0\n"
+      "csrw mhpmcounter7h,  x0\n"
+      "csrw mhpmcounter8h,  x0\n"
+      "csrw mhpmcounter9h,  x0\n"
+      "csrw mhpmcounter10h, x0\n"
+      "csrw mhpmcounter11h, x0\n"
+      "csrw mhpmcounter12h, x0\n"
+      "csrw mhpmcounter13h, x0\n"
+      "csrw mhpmcounter14h, x0\n"
+      "csrw mhpmcounter15h, x0\n"
+      "csrw mhpmcounter16h, x0\n"
+      "csrw mhpmcounter17h, x0\n"
+      "csrw mhpmcounter18h, x0\n"
+      "csrw mhpmcounter19h, x0\n"
+      "csrw mhpmcounter20h, x0\n"
+      "csrw mhpmcounter21h, x0\n"
+      "csrw mhpmcounter22h, x0\n"
+      "csrw mhpmcounter23h, x0\n"
+      "csrw mhpmcounter24h, x0\n"
+      "csrw mhpmcounter25h, x0\n"
+      "csrw mhpmcounter26h, x0\n"
+      "csrw mhpmcounter27h, x0\n"
+      "csrw mhpmcounter28h, x0\n"
+      "csrw mhpmcounter29h, x0\n"
+      "csrw mhpmcounter30h, x0\n"
+      "csrw mhpmcounter31h, x0\n");
+}
+
 int main(int argc, char *argv[])
 {
+    __asm__ volatile("csrw  0x320, %0\n" : : "r"(0xFFFFFFFF));
+    pcount_reset();
+    puts("Starting test!\n");
+    __asm__ volatile("csrw  0x320, %0\n" : : "r"(0x0));
     int ret = run_test();
+    __asm__ volatile("csrw  0x320, %0\n" : : "r"(0xFFFFFFFF));
     if (ret != 0)
     {
-        printf("Test Failed!\n");
+        puts("Test Failed!\n");
         // Make sure RISC-V simulators detect a failed test
 #if defined(__riscv) || defined(__riscv__)
         __asm__ volatile("unimp");
@@ -80,7 +151,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        printf("Test Success!\n");
+        puts("Test Success!\n");
     }
 
     return ret;

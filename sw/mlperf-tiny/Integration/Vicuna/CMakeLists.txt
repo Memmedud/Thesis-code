@@ -17,7 +17,12 @@
 #
 
 # Builds the vicuna C runtime
-add_library(vicuna_crt STATIC)
+add_library(vicuna_crt OBJECT
+  ${CMAKE_SOURCE_DIR}/Integration/Vicuna/runtime.c
+  ${CMAKE_SOURCE_DIR}/Integration/Vicuna/uart.c
+  ${CMAKE_SOURCE_DIR}/Integration/Vicuna/crt0.S
+  ${CMAKE_SOURCE_DIR}/Integration/Vicuna/vicuna_crt.c
+)
 
 target_include_directories(vicuna_crt PUBLIC ${CMAKE_SOURCE_DIR}/Integration/Vicuna)
 target_sources(vicuna_crt PRIVATE

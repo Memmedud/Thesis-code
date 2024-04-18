@@ -27,8 +27,8 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-#define _ARM_NNFUNCTIONS_H
- _MURISCV_NN_FUNCTIONS_H
+#define ARM_NNFUNCTIONS_H
+ MURISCV_NNFUNCTIONS_H
 
 #define USE_INTRINSIC
  USE_INTRINSIC
@@ -54,9 +54,7 @@ extern "C" {
 #define arm_transpose_conv_s8_get_buffer_size_dsp muriscv_nn_transpose_conv_s8_get_buffer_size_dsp
 #define arm_transpose_conv_s8_get_buffer_size_mve muriscv_nn_transpose_conv_s8_get_buffer_size_mve
 #define arm_convolve_s16 muriscv_nn_convolve_s16
-#define arm_convolve_fast_s16 muriscv_nn_convolve_fast_s16
 #define arm_convolve_s16_get_buffer_size muriscv_nn_convolve_s16_get_buffer_size
-#define arm_convolve_fast_s16_get_buffer_size muriscv_nn_convolve_fast_s16_get_buffer_size
 #define arm_convolve_1x1_s4_fast muriscv_nn_convolve_1x1_s4_fast
 #define arm_convolve_1x1_s4 muriscv_nn_convolve_1x1_s4
 #define arm_convolve_1x1_s8_fast muriscv_nn_convolve_1x1_s8_fast
@@ -126,7 +124,7 @@ extern "C" {
 #define arm_concatenation_s8_w muriscv_nn_concatenation_s8_w
 #define arm_svdf_s8 muriscv_nn_svdf_s8
 #define arm_svdf_state_s16_s8 muriscv_nn_svdf_state_s16_s8
-#define arm_lstm_unidirectional_s16_s8 muriscv_nn_lstm_unidirectional_s16_s8
+#define arm_lstm_unidirectional_s8 muriscv_nn_lstm_unidirectional_s8
 #define arm_svdf_s8_get_buffer_size muriscv_nn_svdf_s8_get_buffer_size
 #define arm_svdf_s8_get_buffer_size_dsp muriscv_nn_svdf_s8_get_buffer_size_dsp
 #define arm_svdf_s8_get_buffer_size_mve muriscv_nn_svdf_s8_get_buffer_size_mve

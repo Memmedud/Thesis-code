@@ -17,10 +17,13 @@
 #
 
 # Builds the ibex C runtime
-add_library(ibex_crt STATIC)
+add_library(ibex OBJECT
+  ${CMAKE_SOURCE_DIR}/Integration/ibex/simple_system_common.c
+  ${CMAKE_SOURCE_DIR}/Integration/ibex/crt0.S
+)
 
-target_include_directories(ibex_crt PUBLIC ${CMAKE_SOURCE_DIR}/Integration/ibex)
-target_sources(ibex_crt PRIVATE
+target_include_directories(ibex PUBLIC ${CMAKE_SOURCE_DIR}/Integration/ibex)
+target_sources(ibex PRIVATE
   ${CMAKE_SOURCE_DIR}/Integration/ibex/simple_system_common.c
   ${CMAKE_SOURCE_DIR}/Integration/ibex/crt0.S
 )

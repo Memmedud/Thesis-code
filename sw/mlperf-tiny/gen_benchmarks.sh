@@ -96,12 +96,27 @@ make vww_tflm -j8 > vww.log
 
 if [ ! -d ../bin ]; then
     mkdir ../bin
+    mkdir ../bin/aww
+    mkdir ../bin/vww
+    mkdir ../bin/ic
+    mkdir ../bin/toy
 fi
 
 echo "*** Moving banaries to common directory ***"
-mv Integration/tflm/aww/aww_tflm.elf ../bin/aww_tflm.elf
-mv Integration/tflm/vww/vww_tflm.elf ../bin/vww_tflm.elf
-mv Integration/tflm/ic/ic_tflm.elf ../bin/ic_tflm.elf
-mv Integration/tflm/toy/toy_tflm.elf ../bin/toy_tflm.elf
+mv Integration/tflm/aww/aww_tflm.elf ../bin/aww/aww_tflm.elf
+mv Integration/tflm/aww/aww_tflm.elf.vmem ../bin/aww/aww_tflm.vmem
+mv Integration/tflm/aww/aww_tflm.elf.lst ../bin/aww/aww_tflm.lst
+
+mv Integration/tflm/vww/vww_tflm.elf ../bin/vww/vww_tflm.elf
+mv Integration/tflm/vww/vww_tflm.elf.vmem ../bin/vww/vww_tflm.vmem
+mv Integration/tflm/vww/vww_tflm.elf.lst ../bin/vww/vww_tflm.lst
+
+mv Integration/tflm/ic/ic_tflm.elf ../bin/ic/ic_tflm.elf
+mv Integration/tflm/ic/ic_tflm.elf.vmem ../bin/ic/ic_tflm.vmem
+mv Integration/tflm/ic/ic_tflm.elf.lst ../bin/ic/ic_tflm.lst
+
+mv Integration/tflm/toy/toy_tflm.elf ../bin/toy/toy_tflm.elf
+mv Integration/tflm/toy/toy_tflm.elf.vmem ../bin/toy/toy_tflm.vmem
+mv Integration/tflm/toy/toy_tflm.elf.lst ../bin/toy/toy_tflm.lst
 
 echo "*** DONE! ***"

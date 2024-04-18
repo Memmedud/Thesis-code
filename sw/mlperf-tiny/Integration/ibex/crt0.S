@@ -29,22 +29,22 @@ reset_handler:
   mv x13, x1
   mv x14, x1
   mv x15, x1
-  #mv x16, x1
-  #mv x17, x1
-  #mv x18, x1
-  #mv x19, x1
-  #mv x20, x1
-  #mv x21, x1
-  #mv x22, x1
-  #mv x23, x1
-  #mv x24, x1
-  #mv x25, x1
-  #mv x26, x1
-  #mv x27, x1
-  #mv x28, x1
-  #mv x29, x1
-  #mv x30, x1
-  #mv x31, x1
+  mv x16, x1
+  mv x17, x1
+  mv x18, x1
+  mv x19, x1
+  mv x20, x1
+  mv x21, x1
+  mv x22, x1
+  mv x23, x1
+  mv x24, x1
+  mv x25, x1
+  mv x26, x1
+  mv x27, x1
+  mv x28, x1
+  mv x29, x1
+  mv x30, x1
+  mv x31, x1
 
   /* stack initilization */
   la   x2, _stack_start
