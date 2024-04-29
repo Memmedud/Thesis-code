@@ -17,7 +17,7 @@ def compare_files(file1, file2):
             print(f"   {file2}: {lines2[i]}")
             print()
             num_differences += 1
-        if num_differences > 50:
+        if num_differences > 5:
             print("Too many diffs")
             break
 

@@ -12,10 +12,6 @@ int main(int argc, char **argv) {
   pcount_enable(0);
   pcount_reset();
   uart_printf("%x\n", get_pcount());
-  pcount_enable(1);
-  uart_printf("Hello from Vicuna!\n");
-  pcount_enable(0);
-  uart_printf("%x\n", get_pcount());
 
   // Forever idle
   while (1) {

@@ -31,7 +31,7 @@ def search_strings(search_file_path, strings_to_search):
 strings_file_path = 'Instructions.txt'
 
 # Replace 'search_file.txt' with the path to your file to search through
-search_file_path = '/home/mats/masteroppgave/Thesis-code/sw/mlperf-tiny/bin/aww_tflm-dis.txt'
+search_file_path = '/home/mats/masteroppgave/Thesis-code/results/bins/pext/ic/ic_tflm.lst'
 
 # Parse strings from the file
 strings_to_search = parse_strings(strings_file_path)

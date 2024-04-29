@@ -89,7 +89,7 @@ void print_matrix_word(const int32_t* c, const unsigned long int n, const unsign
   }
 #elif defined(WIDTH32)
   // C = AB with A = [n x m], B = [m x p], C = [n x p]
-  void matmul__ref(int32_t* c, const int32_t* a, const int32_t* b,
+  void matmul_ref(int32_t* c, const int32_t* a, const int32_t* b,
                   const unsigned long int n, const unsigned long int m,
                   const unsigned long int p) {
     for (int i = 0; i < n; i++) {

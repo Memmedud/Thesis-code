@@ -6,14 +6,14 @@
 #include <stdlib.h>
 #include <time.h>
 
-//#define USE_PEXT
+#define USE_PEXT
 #define WIDTH8
 
 #if defined(USE_PEXT)
 #include <rvp_intrinsic.h>
 #endif
 
-#define N 8192     // Size of the vectors
+#define N 2048     // Size of the vectors
 #define A 3        // Scalar value
 
 #if defined(WIDTH8)
@@ -34,13 +34,13 @@
       int32_t simd_a;
       simd_a = (a << 24) | (a << 16) | (a << 8) | (a << 0);
 
-      for (int i = 0; i < n/4; i++) {
-        y[i] = __rv_smaqa(y[i], simd_a, *((int *)(&x[i*4])));
+      for (int i = 0; i < N; i += 4) {
+        y[i] = __rv_smaqa(y[i], simd_a, *((int32_t *)(&x[i])));
       }
     }
   #else
     void axpy(const int8_t *x, int32_t *y, int a, int n) {
-      for (int i = 0; i < n; i++) {
+      for (int i = 0; i < N; i++) {
         y[i] += a * x[i];
       }
     }
@@ -52,13 +52,13 @@
       int32_t simd_a;
       simd_a = (a << 16) | (a << 0);
 
-      for (int i = 0; i < n/2; i++) {
-        y[i] = __rv_kmada(y[i], simd_a, *((int *)(&x[i*2])));
+      for (int i = 0; i < N; i += 2) {
+        y[i] = __rv_kmada(y[i], simd_a, *((int *)(&x[i])));
       }
     }
   #else
     void axpy(const int16_t *x, int32_t *y, int a, int n)  {
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < N; i++) {
             y[i] += a * x[i];
         }
     }
@@ -67,13 +67,13 @@
   // 32-bit AXPY
   #if defined(USE_PEXT)
     void axpy(const uint32_t *x, uint32_t *y, int a, int n) {
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < N; i++) {
             y[i] = __rv_maddr32(y[i], a, x[i]);
         }
     }
   #else
     void axpy(const uint32_t *x, uint32_t *y, int a, int n) {
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < N; i++) {
             y[i] += a * x[i];
         }
     }
@@ -88,14 +88,14 @@ int main() {
   pcount_enable(0);
   pcount_reset();
 
-  puts("Hello simple system\n");
+  /*puts("Hello simple system\n");
   puthex(0xDEADBEEF);
   putchar('\n');
   puthex(0xBAADF00D);
-  putchar('\n');
+  putchar('\n');*/
 
   // Initialize Vectors
-  puts("Initializing vectors...\n");
+  /*puts("Initializing vectors...\n");
   int val = 1;
   for (int i = 0; i < N; ++i) {
     x[i] = val;
@@ -104,16 +104,16 @@ int main() {
       val = 1;
     else
       val++;
-  }
+  }*/
 
   // Perform AXPY operation
-  puts("Running AXPY benchmark...\n");
+  //puts("Running AXPY benchmark...\n");
   pcount_enable(1);
   axpy(x, y, a, N);
   pcount_enable(0);
 
   // Print first and last elements of new vector to verify
-  puts("( ");
+  /*puts("( ");
   for (int i = 0; i < 4; ++i) {
     putbyte(y[i]);
     puts(" ");
@@ -123,7 +123,7 @@ int main() {
     putbyte(y[i]);
     puts(" ");
   }
-  puts(") \n");
+  puts(") \n");*/
 
   return 0;
 }

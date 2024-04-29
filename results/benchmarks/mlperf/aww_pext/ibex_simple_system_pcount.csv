@@ -1,4 +1,4 @@
-Cycles,8411288
+Cycles,8321606
 NONE,0
 Instructions Retired,6350212
 LSU Busy,1301274
@@ -9,5 +9,5 @@ Jumps,44382
 Conditional Branches,607134
 Taken Conditional Branches,168462
 Compressed Instructions,2258120
-Multiply Wait,165356
+Multiply Wait,75674
 Divide Wait,182232
