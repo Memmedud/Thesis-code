@@ -12,7 +12,7 @@ __DYNAMIC = 0;
 MEMORY
 {
     boot : ORIGIN = 0x00000000, LENGTH = 0x00002000 /*   8 kB */
-    ram  : ORIGIN = 0x00002000, LENGTH = 0x000F0000 /* 454 kB */
+    ram  : ORIGIN = 0x00002000, LENGTH = 0x000DF000 /* 454 kB */
 }
 
 STACK_LEN = 0x4000; /* 16 kB */

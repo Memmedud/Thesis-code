@@ -22,7 +22,7 @@ macro(add_muriscv_nn_intg_test TEST_NAME)
   # Register test with CTest and provide command to execute
   if(NOT SPIKE)
     if(NOT USE_VEXT)
-      set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T ${CMAKE_SOURCE_DIR}/Integration/ibex/link.ld")
+      set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -s -T ${CMAKE_SOURCE_DIR}/Integration/ibex/link.ld")
       target_link_options(${TEST_NAME} PUBLIC -nostartfiles)
       target_link_libraries(${TEST_NAME} PUBLIC ibex)
 
@@ -35,7 +35,7 @@ macro(add_muriscv_nn_intg_test TEST_NAME)
                           "$<TARGET_FILE:${TEST_NAME}>.vmem" -vmem VERBATIM)
 
     else()
-      set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -T ${CMAKE_SOURCE_DIR}/Integration/Vicuna/lld_link.ld")
+      set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -s -T ${CMAKE_SOURCE_DIR}/Integration/Vicuna/lld_link.ld")
       target_link_options(${TEST_NAME} PUBLIC -nostartfiles)
       target_link_libraries(${TEST_NAME} PUBLIC vicuna_crt)
 

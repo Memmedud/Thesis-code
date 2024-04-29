@@ -28,14 +28,16 @@ set_property(CACHE TOOLCHAIN PROPERTY STRINGS GCC)
 
 # RISC-V extensions for HW acceleration
 option(USE_RV32E "Use RV32E with reduced register count" OFF)
-option(USE_VEXT "Use the RISC-V V Vector Extension" OFF)
+option(USE_VEXT "Use the RISC-V V Vector Extension" ON)
+option(AUTO_VECTORIZE "Use RISC-V Auto-Vectorization" OFF)
 option(USE_PEXT "Use the RISC-V P Packed Extension" OFF)
 option(SPIKE "Compile for Spike ISA simulator" OFF)
 option(LONG_BENCHMARK "Compile long benchmarks" OFF)
+option(SIM_VICUNA "Compiler with Vicuna workarounds" OFF)
 
 if(USE_RV32E)
   if(USE_VEXT)
-    set(RISCV_ARCH "rv32em_zve32x_zicsr" CACHE STRING "march argument to the compiler, using the vector extension")
+    set(RISCV_ARCH "rv32emc_zve32x_zicsr" CACHE STRING "march argument to the compiler, using the vector extension")
   elseif(USE_PEXT)
   set(RISCV_ARCH "rv32emc_zpn_zbpbo_zicsr" CACHE STRING "march argument to the compiler, using the vector extension")
   else()
@@ -45,28 +47,22 @@ if(USE_RV32E)
   set(RISCV_CMODEL "medlow" CACHE STRING "mcmodel argument to the compiler")
 else() 
   if(USE_VEXT)
-    set(RISCV_ARCH "rv32im_zve32x_zicsr" CACHE STRING "march argument to the compiler, using the vector extension")
+    set(RISCV_ARCH "rv32imc_zve32x_zvl64b_zicsr" CACHE STRING "march argument to the compiler, using the vector extension")
   elseif(USE_PEXT)
     set(RISCV_ARCH "rv32imc_zpn_zbpbo_zicsr" CACHE STRING "march argument to the compiler, using the packed extension")
   else()
     set(RISCV_ARCH "rv32imc_zicsr" CACHE STRING "march argument to the compiler, using only scalar instructions")
   endif()
   set(RISCV_ABI "ilp32" CACHE STRING "mabi argument to the compiler")
-  set(RISCV_CMODEL "medlow" CACHE STRING "mcmodel argument to the compiler")        # should use medlow instead?
+  set(RISCV_CMODEL "medlow" CACHE STRING "mcmodel argument to the compiler")
 endif()
+
+set(AUTO_VECTORIZE_VLEN "128" CACHE STRING "Specify the vector length if using auto vectorization.")
 
 # Tell CMake about our processor
 set(CMAKE_SYSTEM_PROCESSOR ${RISCV_ARCH})
 # The Generic system name is used for bare-metal targets (without OS) in CMake
 set(CMAKE_SYSTEM_NAME Generic)
-
-# Choose a vector length for the simulator to use.
-# IMPORTANT: The code itself is completely vector length agnostic! It can run
-# on any vector length and does not use this information during build. This is
-# simply a convenient option to configure the unit tests.
-set(VLEN "64" CACHE STRING "Specify the vector length. ONLY used to configure the simulator for tests.")
-set(ELEN "32" CACHE STRING "Specify the max vector element width.")  # TODO: adjust compiler flags accordingly
-set_property(CACHE VLEN PROPERTY STRINGS 32 64 128 256 512 1024)
 
 # Enable tests by default
 option(ENABLE_INTG_TESTS "Enable integration tests" ON)
@@ -95,6 +91,14 @@ elseif(USE_VEXT)
   add_definitions(-DUSE_VEXT)
 elseif(USE_PEXT)
   add_definitions(-DUSE_PEXT)
+endif()
+
+if(SPIKE)
+  add_definitions(-DSPIKE)
+endif()
+
+if (SIM_VICUNA)
+  add_definitions(-DSIM_VICUNA)
 endif()
 
 # Set build mode

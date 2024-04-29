@@ -26,7 +26,7 @@ USE_PEXT=OFF
 USE_VEXT=OFF
 USE_RV32E=OFF
 
-SPIKE=OFF
+SPIKE=ON
 LONG_BENCHMARK=OFF
 
 TOOLCHAIN=GCC
@@ -88,7 +88,7 @@ if [ ! -d ./_build ]; then
     mkdir _build
 fi
 cd _build
-cmake -DRISCV_GCC_PREFIX=${GCC_PREFIX} -DUSE_RV32E=${USE_RV32E} -DUSE_VEXT=${USE_VEXT} -DUSE_PEXT=${USE_PEXT} -DSPIKE=${SPIKE} -DLONG_BENCHMARK=${LONG_BENCHMARK} ..
+cmake -DRISCV_GCC_PREFIX=${GCC_PREFIX} -DAUTO_VECTORIZE=OFF -DSIM_VICUNA=OFF -DUSE_RV32E=${USE_RV32E} -DUSE_VEXT=${USE_VEXT} -DUSE_PEXT=${USE_PEXT} -DSPIKE=${SPIKE} -DLONG_BENCHMARK=${LONG_BENCHMARK} ..
 make aww_tflm -j8 > aww.log
 make ic_tflm  -j8 > ic.log
 make toy_tflm -j8 > toy.log
@@ -104,19 +104,22 @@ fi
 
 echo "*** Moving banaries to common directory ***"
 mv Integration/tflm/aww/aww_tflm.elf ../bin/aww/aww_tflm.elf
-mv Integration/tflm/aww/aww_tflm.elf.vmem ../bin/aww/aww_tflm.vmem
-mv Integration/tflm/aww/aww_tflm.elf.lst ../bin/aww/aww_tflm.lst
-
 mv Integration/tflm/vww/vww_tflm.elf ../bin/vww/vww_tflm.elf
-mv Integration/tflm/vww/vww_tflm.elf.vmem ../bin/vww/vww_tflm.vmem
-mv Integration/tflm/vww/vww_tflm.elf.lst ../bin/vww/vww_tflm.lst
-
 mv Integration/tflm/ic/ic_tflm.elf ../bin/ic/ic_tflm.elf
-mv Integration/tflm/ic/ic_tflm.elf.vmem ../bin/ic/ic_tflm.vmem
-mv Integration/tflm/ic/ic_tflm.elf.lst ../bin/ic/ic_tflm.lst
-
 mv Integration/tflm/toy/toy_tflm.elf ../bin/toy/toy_tflm.elf
-mv Integration/tflm/toy/toy_tflm.elf.vmem ../bin/toy/toy_tflm.vmem
-mv Integration/tflm/toy/toy_tflm.elf.lst ../bin/toy/toy_tflm.lst
+
+if [ "${SPIKE}" == "OFF" ]; then
+    mv Integration/tflm/aww/aww_tflm.elf.vmem ../bin/aww/aww_tflm.vmem
+    mv Integration/tflm/aww/aww_tflm.elf.lst ../bin/aww/aww_tflm.lst
+
+    mv Integration/tflm/vww/vww_tflm.elf.vmem ../bin/vww/vww_tflm.vmem
+    mv Integration/tflm/vww/vww_tflm.elf.lst ../bin/vww/vww_tflm.lst
+
+    mv Integration/tflm/ic/ic_tflm.elf.vmem ../bin/ic/ic_tflm.vmem
+    mv Integration/tflm/ic/ic_tflm.elf.lst ../bin/ic/ic_tflm.lst
+
+    mv Integration/tflm/toy/toy_tflm.elf.vmem ../bin/toy/toy_tflm.vmem
+    mv Integration/tflm/toy/toy_tflm.elf.lst ../bin/toy/toy_tflm.lst
+fi
 
 echo "*** DONE! ***"
