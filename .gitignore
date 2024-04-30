@@ -24,6 +24,7 @@ sw/mlperf-tiny/bin
 *.elf
 *.vmem
 *.bin
+*.lst
 
 # Syn stuff
 *nangate45
