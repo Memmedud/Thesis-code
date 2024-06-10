@@ -10,7 +10,4 @@
 	path = sw/riscv-arch-test
 	url = https://github.com/Memmedud/riscv-arch-test
 	branch = old-framework-pext
-[submodule "hw/ibex"]
-	path = hw/ibex
-	url = https://github.com/lowRISC/ibex
-	branch = master
+
