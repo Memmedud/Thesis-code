@@ -1,1 +1,1 @@
-Many credits to muRISCV-NN team. These folder are based off that
+Many credits to muRISCV-NN team. The build setup is based off theirs: https://github.com/tum-ei-eda/muriscv-nn/tree/master

@@ -1,5 +1,6 @@
-TODO: Make this readme
+Run ./setup.sh in bin-folder to set up spike, toolchain has to be installed first
 
-run ./setup.sh in bin-folder to set up spike, tollchain has to be installed first
+./run.sh runs a given binary with a given arch in spike.
+Example:
 
--/run.sh runs a given binary with a given arch in spike
+    ./run.sh my_binary.elf rv_arch [VLEN]

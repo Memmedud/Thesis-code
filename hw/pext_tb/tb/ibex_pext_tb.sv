@@ -85,7 +85,7 @@ module ibex_pext_tb;
 
   always @(posedge clk) begin
     //$display($stime,,,"alu_result=%8h mult_valid=%1b imd_val1=%8h imd_val0=%8h quad=%2b cc=%2b div_en=%1b divbyzero=%1b divstate=%3b", alu_result, valid, imd_val_q[1], imd_val_q[0], alu_pext.mult_pext_i.zpn_signed_mult, alu_pext.mult_pext_i.cycle_count, alu_pext.mult_pext_i.div_en_internal, alu_pext.mult_pext_i.div_by_zero_d, alu_pext.mult_pext_i.md_state_q);
-    $display($stime,,,"alu_result=%8h valid=%8h r1=%8h r2=%8h r3=%8h a_sign=%3b, b_sign=%3b state=%2b imd=%9h", alu_result, imd_val_d[0], alu_pext.mult_pext_i.summand_LL, alu_pext.mult_pext_i.summand_HL, alu_pext.mult_pext_i.mult3_res, alu_pext.mult_pext_i.op_a_signs, alu_pext.mult_pext_i.op_b_signs, alu_pext.mult_pext_i.mult_state_q, imd_val_q[0]);
+    $display($stime,,,"alu_result=%8h valid=%8h r1=%8h r2=%8h r3=%8h a_sign=%3b, b_sign=%3b state=%2b imd=%9h", alu_result, imd_val_d[0], alu_pext.mult_pext_i.mult1_op_b, alu_pext.mult_pext_i.mult2_op_b, alu_pext.mult_pext_i.mult1_res, alu_pext.mult_pext_i.op_a_signs, alu_pext.mult_pext_i.op_b_signs, alu_pext.mult_pext_i.crossed, imd_val_q[1]);
   end
 
   initial begin
@@ -95,15 +95,15 @@ module ibex_pext_tb;
 
 
     //alu_operand_a  = 32'hfffff7ff;
-    alu_operand_a  = 32'hfffff7ff;
+    alu_operand_a  = 32'h67543476;
 
     //alu_operand_b  = 32'hffff7fff;
-    alu_operand_b  = 32'h7fffffbf;
-    alu_operand_rd = 32'h10;
+    alu_operand_b  = 32'hffff;
+    alu_operand_rd = 32'h11;
 
-    zpn_operator = ZPN_SMMWB;
+    zpn_operator = ZPN_KMMAWB;
     alu_operator = ZPN_INSTR;
-    md_operator  = MD_OP_MULL;
+    md_operator  = MD_OP_MULH;
 
     multdiv_sel = 1'b1;
     mult_en = 1'b1;

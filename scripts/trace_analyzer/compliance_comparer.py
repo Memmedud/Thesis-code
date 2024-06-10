@@ -41,9 +41,11 @@ for i in total_stats:
     overall[0] += i['pass-fail'][0]
     overall[1] += i['pass-fail'][1]
     if ((i['coverage'] > 0.9) and not once):
-        print("----------------------------------------------------------")
+        #print("----------------------------------------------------------")
         once = True
-    print(i)
+    #print(f"Instruction: ", total_stats['testname'], ", passes: ", total_stats['pass-fail'][0], ", fails: ", {total_stats['pass-fail'][1]}, ", pass-rate: ", {total_stats['coverage']})
+    #print(f"{'Instruction: ' + (i['testname'].split('.')[0].split('-')[0]) + (','):<24} {"# Tests: " + i['pass-fail'][0]:<15} {'# Fails:' + i['pass-fail'][1]:<15} {'Pass-rate:' + round(i['coverage']*100, 1):<15} %")
+    print(f"{'Instruction:   ' + (i['testname'].split('.')[0].split('-')[0]) + (','):<28} {'#Tests:   ' + str(i['pass-fail'][0]) + (','):<18} {'#Fails:   ' + str(i['pass-fail'][1]) + (','):<18} {'Pass-rate:   ' + str(round(i['coverage']*100, 1)):<15} %")
 
 print(f"Total failing coverage {1 - (overall[1] / overall[0])}")
 
@@ -60,3 +62,5 @@ for root, dirs, files in os.walk(f"{root_dir}/{test_class}/references"):
 print("Total tests: ", total_tests)
 print("Total fails: ", total_fails)
 print("Total pass-rate: ", 1-(total_fails/total_tests))
+
+

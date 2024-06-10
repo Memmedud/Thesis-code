@@ -9,6 +9,7 @@ INCS := -I$(COMMON_DIR)
 
 # ARCH = rv32im # to disable compressed instructions
 ARCH ?= rv32imc_zicsr
+#ARCH ?= rv32imc_zpn_zbpbo_zicsr
 ABI ?= ilp32
 
 ifdef PROGRAM
@@ -25,8 +26,10 @@ CC = ../../../../toolchain/riscv-gcc-main/bin/riscv32-unknown-elf-gcc
 #CC = gcc
 
 OBJCOPY = ../../../../toolchain/riscv-gcc-main/bin/riscv32-unknown-elf-objcopy
+#OBJCOPY = ../../../../toolchain/riscv-gcc-pext/bin/riscv32-unknown-elf-objcopy
 #OBJCOPY = objcopy
 OBJDUMP = ../../../../toolchain/riscv-gcc-main/bin/riscv32-unknown-elf-objdump
+#OBJDUMP = ../../../../toolchain/riscv-gcc-pext/bin/riscv32-unknown-elf-objdump
 #OBJDUMP = objdump
 
 #OBJCOPY ?= $(subst gcc,objcopy,$(wordlist 1,1,$(CC)))

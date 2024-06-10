@@ -6,14 +6,14 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define USE_PEXT
-#define WIDTH8
+//#define USE_PEXT
+#define WIDTH32
 
 #if defined(USE_PEXT)
 #include <rvp_intrinsic.h>
 #endif
 
-#define N 2048     // Size of the vectors
+#define N 8192     // Size of the vectors
 #define A 3        // Scalar value
 
 #if defined(WIDTH8)
@@ -95,7 +95,7 @@ int main() {
   putchar('\n');*/
 
   // Initialize Vectors
-  /*puts("Initializing vectors...\n");
+  puts("Initializing vectors...\n");
   int val = 1;
   for (int i = 0; i < N; ++i) {
     x[i] = val;
@@ -104,7 +104,7 @@ int main() {
       val = 1;
     else
       val++;
-  }*/
+  }
 
   // Perform AXPY operation
   //puts("Running AXPY benchmark...\n");

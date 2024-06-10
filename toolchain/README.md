@@ -7,9 +7,6 @@ Simply run ./setup.sh with the selections of toolchains you want
 - pext
 - test (only for testing that the script works)
 
-========================================
+------------------------------
 
-Build GCC from scratch...
-
-TODO: Make guide
-    Can be done, but is time-consuming...
+GCC can also be built from scratch, follow the guide here https://github.com/riscv-collab/riscv-gnu-toolchain, this can take hours
