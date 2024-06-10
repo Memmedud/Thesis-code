@@ -30,8 +30,6 @@ sw/mlperf-tiny/bin
 *nangate45
 *syn_out*
 
-*results
-
 # Misc
 *.DS_Store
 *old

@@ -1,0 +1,44 @@
+Pext 64x64 8-bit
+Cycles:                     406296
+NONE:                       0
+Instructions Retired:       238334
+LSU Busy:                   143449
+Fetch Wait:                 16319
+Loads:                      135244
+Stores:                     8205
+Jumps:                      4
+Conditional Branches:       8320
+Taken Conditional Branches: 8190
+Compressed Instructions:    86261
+Multiply Wait:              0
+Divide Wait:                0
+
+Pext 128x128 8-bit
+Cycles:                     5539495
+NONE:                       0
+Instructions Retired:       3343909
+LSU Busy:                   1097857
+Fetch Wait:                 557055
+Loads:                      1065088
+Stores:                     32769
+Jumps:                      4
+Conditional Branches:       557312
+Taken Conditional Branches: 540670
+Compressed Instructions:    2179483
+Multiply Wait:              0
+Divide Wait:                0
+
+Pext 16x16 8-bit
+Cycles:                     8406
+NONE:                       0
+Instructions Retired:       5039
+LSU Busy:                   2822
+Fetch Wait:                 271
+Loads:                      2307
+Stores:                     515
+Jumps:                      4
+Conditional Branches:       288
+Taken Conditional Branches: 270
+Compressed Instructions:    1389
+Multiply Wait:              0
+Divide Wait:                0

@@ -1,0 +1,41 @@
+16x16
+Cycles:                     31052
+Instructions Retired:       19679
+LSU Busy:                   10858
+Fetch Wait:                 256
+Loads:                      9532
+Stores:                     1326
+Jumps:                      4
+Conditional Branches:       272
+Taken Conditional Branches: 255
+Compressed Instructions:    6820
+Multiply Wait:              0
+Divide Wait:                0
+
+64x64
+Cycles:                     2920920
+Instructions Retired:       1868244
+LSU Busy:                   528384
+Fetch Wait:                 262145
+Loads:                      524288
+Stores:                     4096
+Jumps:                      4
+Conditional Branches:       266304
+Taken Conditional Branches: 262143
+Compressed Instructions:    544906
+Multiply Wait:              0
+Divide Wait:                0
+
+128x128
+Cycles:                     23217048
+Instructions Retired:       14812052
+LSU Busy:                   4210688
+Fetch Wait:                 2097153
+Loads:                      4194304
+Stores:                     16384
+Jumps:                      4
+Conditional Branches:       2113664
+Taken Conditional Branches: 2097151
+Compressed Instructions:    4276490
+Multiply Wait:              0
+Divide Wait:                0

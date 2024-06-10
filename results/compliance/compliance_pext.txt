@@ -1,0 +1,38 @@
+Instruction:   kslraw,       #Tests:   113,     #Fails:   65,      Pass-rate:   42.5 %
+Instruction:   kslra8,       #Tests:   84,      #Fails:   48,      Pass-rate:   42.9 %
+Instruction:   kslraw,       #Tests:   122,     #Fails:   69,      Pass-rate:   43.4 %
+Instruction:   kslra16,      #Tests:   98,      #Fails:   53,      Pass-rate:   45.9 %
+Instruction:   kslra8,       #Tests:   81,      #Fails:   39,      Pass-rate:   51.9 %
+Instruction:   kslra16,      #Tests:   89,      #Fails:   42,      Pass-rate:   52.8 %
+Instruction:   srli8,        #Tests:   52,      #Fails:   20,      Pass-rate:   61.5 %
+Instruction:   srl8,         #Tests:   52,      #Fails:   14,      Pass-rate:   73.1 %
+Instruction:   srli16,       #Tests:   61,      #Fails:   15,      Pass-rate:   75.4 %
+Instruction:   srl16,        #Tests:   60,      #Fails:   12,      Pass-rate:   80.0 %
+Instruction:   kmmwt2,       #Tests:   91,      #Fails:   6,       Pass-rate:   93.4 %
+Instruction:   kmmwb2,       #Tests:   97,      #Fails:   6,       Pass-rate:   93.8 %
+Instruction:   kwmmul,       #Tests:   108,     #Fails:   6,       Pass-rate:   94.4 %
+Instruction:   kmmawb2,      #Tests:   92,      #Fails:   2,       Pass-rate:   97.8 %
+Instruction:   kmmawt2,      #Tests:   96,      #Fails:   2,       Pass-rate:   97.9 %
+Instruction:   kmmsb,        #Tests:   98,      #Fails:   2,       Pass-rate:   98.0 %
+Instruction:   msubr32,      #Tests:   104,     #Fails:   2,       Pass-rate:   98.1 %
+Instruction:   smaqa,        #Tests:   68,      #Fails:   1,       Pass-rate:   98.5 %
+Instruction:   umaqa,        #Tests:   68,      #Fails:   1,       Pass-rate:   98.5 %
+Instruction:   ksllw,        #Tests:   74,      #Fails:   1,       Pass-rate:   98.6 %
+Instruction:   khmx16,       #Tests:   77,      #Fails:   1,       Pass-rate:   98.7 %
+Instruction:   kmads,        #Tests:   77,      #Fails:   1,       Pass-rate:   98.7 %
+Instruction:   kmaxda,       #Tests:   77,      #Fails:   1,       Pass-rate:   98.7 %
+Instruction:   kdmabb,       #Tests:   76,      #Fails:   1,       Pass-rate:   98.7 %
+Instruction:   kmatt,        #Tests:   83,      #Fails:   1,       Pass-rate:   98.8 %
+Instruction:   kmsxda,       #Tests:   81,      #Fails:   1,       Pass-rate:   98.8 %
+Instruction:   kmada,        #Tests:   86,      #Fails:   1,       Pass-rate:   98.8 %
+Instruction:   kmabt,        #Tests:   82,      #Fails:   1,       Pass-rate:   98.8 %
+Instruction:   kmmawt2,      #Tests:   93,      #Fails:   1,       Pass-rate:   98.9 %
+Instruction:   kmmawb,       #Tests:   93,      #Fails:   1,       Pass-rate:   98.9 %
+Instruction:   kmmawb2,      #Tests:   96,      #Fails:   1,       Pass-rate:   99.0 %
+Instruction:   kmmac,        #Tests:   106,     #Fails:   1,       Pass-rate:   99.1 %
+Instruction:   kmmsb,        #Tests:   111,     #Fails:   1,       Pass-rate:   99.1 %
+Instruction:   maddr32,      #Tests:   108,     #Fails:   1,       Pass-rate:   99.1 %
+
+Total tests:        14554
+Total fails:        420
+Total pass-rate:    97.1%
